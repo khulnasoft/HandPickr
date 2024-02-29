@@ -61,7 +61,7 @@ export default function MissingSplitItemDialog() {
                     </li>
                     <li className="list-item list-disc">
                       Make sure the integration is configured to sync your Split
-                      project to a Vercel Edge Config. Go to vercel.com →
+                      project to a Khulnasoft Edge Config. Go to vercel.com →
                       Integrations → Split → Manage → Configure.
                     </li>
                     <li className="list-item list-disc">
@@ -77,8 +77,8 @@ export default function MissingSplitItemDialog() {
                       </span>{' '}
                       environment variable configured and it contains the item
                       key as specified by the Split integration. You can find
-                      this key on your account at Vercel under Integrations →
-                      Split → Manage → Configure → Edge Config Item Key
+                      this key on your account at Khulnasoft under Integrations
+                      → Split → Manage → Configure → Edge Config Item Key
                     </li>
                     <li className="list-item list-disc">
                       Ensure the Edge Config actually contains your Split data.

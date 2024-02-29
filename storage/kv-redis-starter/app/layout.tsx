@@ -2,8 +2,9 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 export const metadata = {
-  title: 'Vercel KV for Redis Next.js Starter',
-  description: 'A simple Next.js app with Vercel KV for Redis as the database',
+  title: 'Khulnasoft KV for Redis Next.js Starter',
+  description:
+    'A simple Next.js app with Khulnasoft KV for Redis as the database',
 }
 
 const inter = Inter({

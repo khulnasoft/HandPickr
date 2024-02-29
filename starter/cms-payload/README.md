@@ -24,9 +24,9 @@ https://cms-payload.vercel.app
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload)
 
 ## Clone and Deploy
 
@@ -44,7 +44,7 @@ yarn create next-app --example cms-payload cms-payload-app
 pnpm create next-app --example cms-payload cms-payload-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 Fill out the same environment variables that are shown in the `.env.example` with your own values, and then you're good to go!
 

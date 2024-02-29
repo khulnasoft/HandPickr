@@ -12,10 +12,12 @@ export default async function handler(_: NextRequest) {
     start(controller) {
       controller.enqueue(
         encoder.encode(
-          '<html><head><title>Vercel Edge Functions + Streaming</title></head><body>'
+          '<html><head><title>Khulnasoft Edge Functions + Streaming</title></head><body>'
         )
       )
-      controller.enqueue(encoder.encode('Vercel Edge Functions + Streaming'))
+      controller.enqueue(
+        encoder.encode('Khulnasoft Edge Functions + Streaming')
+      )
       controller.enqueue(encoder.encode('</body></html>'))
       controller.close()
     },

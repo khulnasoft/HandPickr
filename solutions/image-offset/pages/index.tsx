@@ -58,7 +58,7 @@ function Home() {
           loading is automatically disabled for images using priority.
         </Text>
         <div className="shadow bg-white rounded h-64 w-64 relative">
-          <Image priority src={logoBlack} alt="Vercel logo" />
+          <Image priority src={logoBlack} alt="Khulnasoft logo" />
         </div>
         <Text className="text-gray-500 border-l-4 pl-2">
           This image has <Code>priority</Code> so it has been preloaded.
@@ -75,14 +75,14 @@ function Home() {
           viewport.
         </Text>
         <div className="shadow bg-white rounded h-64 w-64 relative">
-          <Image loading="eager" src={logoBlack} alt="Vercel logo" />
+          <Image loading="eager" src={logoBlack} alt="Khulnasoft logo" />
         </div>
         <Text className="text-gray-500 border-l-4 pl-2">
           This image has <Code>loading=&quot;eager&quot;</Code> so it has been
           loaded immediately.
         </Text>
         <div className="shadow bg-white rounded h-64 w-64 relative">
-          <Image src={logoBlack} alt="Vercel logo" />
+          <Image src={logoBlack} alt="Khulnasoft logo" />
         </div>
         <Text className="text-gray-500 border-l-4 pl-2">
           This image has <Code>loading=&quot;lazy&quot;</Code> (default) so it
@@ -136,7 +136,7 @@ function Home() {
           <ImageCardWithOffset
             onLoadingComplete={handleLoaded}
             src={logoBlue}
-            alt="Vercel logo"
+            alt="Khulnasoft logo"
             lazyBoundary="200px"
           />
           <Text className="text-gray-500">
@@ -147,7 +147,7 @@ function Home() {
           <ImageCardWithOffset
             onLoadingComplete={handleLoaded}
             src={logoPink}
-            alt="Vercel logo"
+            alt="Khulnasoft logo"
             lazyBoundary="100px"
           />
           <Text className="text-gray-500">
@@ -158,7 +158,7 @@ function Home() {
           <ImageCardWithOffset
             onLoadingComplete={handleLoaded}
             src={logoGreen}
-            alt="Vercel logo"
+            alt="Khulnasoft logo"
             lazyBoundary="20px"
           />
           <Text className="text-gray-500">

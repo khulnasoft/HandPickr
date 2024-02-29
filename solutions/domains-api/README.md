@@ -1,7 +1,7 @@
 ---
 name: Domains API
 slug: domains-api
-description: Learn to leverage Vercel's Domains API to add and remove domains programmatically from your Platforms on Vercel project.
+description: Learn to leverage Khulnasoft's Domains API to add and remove domains programmatically from your Platforms on Khulnasoft project.
 framework: Next.js
 useCase: Documentation
 css: Tailwind
@@ -13,7 +13,7 @@ relatedTemplates:
 
 # Domains API
 
-This code snippet shows you how you can leverage Vercel's Domains API to add and remove domains programmatically from your Platforms on Vercel project.
+This code snippet shows you how you can leverage Khulnasoft's Domains API to add and remove domains programmatically from your Platforms on Khulnasoft project.
 
 ## Dependencies
 
@@ -32,9 +32,9 @@ https://domains-api.vercel.app/
 
 You'll need to configure 3 different environment variables for this project to work:
 
-- `PROJECT_ID_VERCEL`: The ID of the Vercel project you want to add/remove domains from. You can find it under the "Settings" tab in your project's dashboard.
-- `TEAM_ID_VERCEL`: The ID of the Vercel team you want to add/remove domains from. You can find it under the "Settings" tab in your team's dashboard.
-- `AUTH_BEARER_TOKEN`: Your personal auth bearer token that gives you programmatic access to your Vercel account. You can create one under the "Tokens" tab in your personal account's settings tab.
+- `PROJECT_ID_VERCEL`: The ID of the Khulnasoft project you want to add/remove domains from. You can find it under the "Settings" tab in your project's dashboard.
+- `TEAM_ID_VERCEL`: The ID of the Khulnasoft team you want to add/remove domains from. You can find it under the "Settings" tab in your team's dashboard.
+- `AUTH_BEARER_TOKEN`: Your personal auth bearer token that gives you programmatic access to your Khulnasoft account. You can create one under the "Tokens" tab in your personal account's settings tab.
 
 ### 1. Adding Domains
 
@@ -58,7 +58,7 @@ There are two ways that your users can configure their domains after they are ad
 
 - CNAME record:
   - recommended for subdomains (blog.domain.com, app.domain.com)
-  - you can set up a branded CNAME value by adding an `A` record for the `cname` subdomain on your domain and point it to to Vercel's IP address `76.76.21.21`
+  - you can set up a branded CNAME value by adding an `A` record for the `cname` subdomain on your domain and point it to to Khulnasoft's IP address `76.76.21.21`
 - A record:
   - recommended for apex domains (domain.com)
 
@@ -75,9 +75,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=platforms-eap):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=platforms-eap):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/domains-api&project-name=domains-api&repository-name=domains-api&env=AUTH_BEARER_TOKEN,PROJECT_ID_VERCEL,TEAM_ID_VERCEL)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/domains-api&project-name=domains-api&repository-name=domains-api&env=AUTH_BEARER_TOKEN,PROJECT_ID_VERCEL,TEAM_ID_VERCEL)
 
 ### Clone and Deploy
 
@@ -93,4 +93,4 @@ Next, run Next.js in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=platforms-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=platforms-eap) ([Documentation](https://nextjs.org/docs/deployment)).

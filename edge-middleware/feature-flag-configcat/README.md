@@ -27,9 +27,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY,FEATURE_FLAG_ABOUT_PAGE,FEATURE_FLAG_MARKETING_PAGE&project-name=feature-flag-configcat&repository-name=feature-flag-configcat)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY,FEATURE_FLAG_ABOUT_PAGE,FEATURE_FLAG_MARKETING_PAGE&project-name=feature-flag-configcat&repository-name=feature-flag-configcat)
 
 ### Clone and Deploy
 
@@ -63,4 +63,4 @@ The index page ([pages/index.tsx](pages/index.tsx)) also shows how to do AB test
 
 We fetch and save the feature flags in JSON at build time to avoid doing any kind of data fetching at the edge, check [scripts/configcat.js](scripts/configcat.js) to see how it works.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).

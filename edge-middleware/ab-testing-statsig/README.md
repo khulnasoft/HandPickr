@@ -29,9 +29,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fedge-middleware%2Fab-testing-statsig&project-name=ab-testing-statsig&repository-name=ab-testing-statsig&integration-ids=oac_NAO87zzp3ADxj2ZUh3vikLip&env=STATSIG_SERVER_API_KEY,NEXT_PUBLIC_STATSIG_CLIENT_KEY,STATSIG_CONSOLE_API_KEY,EDGE_CONFIG,EDGE_CONFIG_ITEM_KEY&envDescription=Statsig%20API%20keys%20and%20Edge%20Config%20settings&envLink=https%3A%2F%2Fdocs.statsig.com%2Fguides%2Ffirst-feature)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fedge-middleware%2Fab-testing-statsig&project-name=ab-testing-statsig&repository-name=ab-testing-statsig&integration-ids=oac_NAO87zzp3ADxj2ZUh3vikLip&env=STATSIG_SERVER_API_KEY,NEXT_PUBLIC_STATSIG_CLIENT_KEY,STATSIG_CONSOLE_API_KEY,EDGE_CONFIG,EDGE_CONFIG_ITEM_KEY&envDescription=Statsig%20API%20keys%20and%20Edge%20Config%20settings&envLink=https%3A%2F%2Fdocs.statsig.com%2Fguides%2Ffirst-feature)
 
 ### Clone and Deploy
 
@@ -52,7 +52,7 @@ Then, copy [.env.example](./env.example) to `.env.local` and fill it in with you
 cp .env.example .env.local
 ```
 
-Install the [Statsig Vercel Integration](https://vercel.com/integrations/statsig) for your project.
+Install the [Statsig Khulnasoft Integration](https://vercel.com/integrations/statsig) for your project.
 Then fill in `.env.local` with the provided Edge Config Connection String and Edge Config Item Key.
 
 Next, run Next.js in development mode:
@@ -67,4 +67,4 @@ yarn
 yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).

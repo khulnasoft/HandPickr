@@ -23,9 +23,9 @@ export default function middleware(req) {
   }
 
   /*  You have to replace ".vercel.pub" with your own domain if you deploy this example under your domain.
-      You can also use wildcard subdomains on .vercel.app links that are associated with your Vercel team slug
+      You can also use wildcard subdomains on .vercel.app links that are associated with your Khulnasoft team slug
       in this case, our team slug is "platformize", thus *.platformize.vercel.app works. Do note that you'll
-      still need to add "*.platformize.vercel.app" as a wildcard domain on your Vercel dashboard. */
+      still need to add "*.platformize.vercel.app" as a wildcard domain on your Khulnasoft dashboard. */
 
   const currentHost =
     process.env.NODE_ENV === 'production' && process.env.VERCEL === '1'

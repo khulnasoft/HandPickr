@@ -3,7 +3,7 @@ pipelines:
   branches:
     feature/*:
       - step:
-          name: Install Vercel CLI, Pull Vercel Preview Environment Information, Build Project Artifacts and Deploy Project Artifacts to Vercel
+          name: Install Khulnasoft CLI, Pull Khulnasoft Preview Environment Information, Build Project Artifacts and Deploy Project Artifacts to Khulnasoft
           script:
             - npm install --global vercel
             - vercel pull --yes --environment=preview --token=$VERCEL_TOKEN
@@ -11,7 +11,7 @@ pipelines:
             - vercel deploy --prebuilt  --token=$VERCEL_TOKEN
     main:
       - step:
-          name: Install Vercel CLI, Pull Vercel Production Environment Information, Build Project Artifacts and Deploy Project Artifacts to Vercel
+          name: Install Khulnasoft CLI, Pull Khulnasoft Production Environment Information, Build Project Artifacts and Deploy Project Artifacts to Khulnasoft
           script:
             - npm install --global vercel
             - vercel pull --yes --environment=production --token=$VERCEL_TOKEN

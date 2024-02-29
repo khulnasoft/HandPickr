@@ -1,6 +1,6 @@
 # Publishing Templates
 
-> **Important**: This page is for Vercel employees only.
+> **Important**: This page is for Khulnasoft employees only.
 
 Whenever there's a change to a `README.md` file that's part of an example, a new draft template will be created in Contentful. In order to release the template you'll need to do the following:
 

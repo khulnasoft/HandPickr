@@ -1,6 +1,6 @@
 {
   "name": "cms-payload",
-  "description": "Demo of Payload deployed as Vercel functions within Next.js",
+  "description": "Demo of Payload deployed as Khulnasoft functions within Next.js",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

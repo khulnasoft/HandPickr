@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Waiting Room with Vercel KV for Redis',
+  title: 'Waiting Room with Khulnasoft KV for Redis',
   description: 'Add a virtual waiting room to your site.',
 }
 

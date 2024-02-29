@@ -89,7 +89,7 @@ function Home() {
               width={200}
               height={200}
               src={logo}
-              alt="Vercel logo"
+              alt="Khulnasoft logo"
             />
             <Text>This image should load correctly</Text>
           </div>
@@ -99,7 +99,7 @@ function Home() {
               height={200}
               layout="fixed"
               src="/failed.jpg"
-              alt="Vercel logo"
+              alt="Khulnasoft logo"
             />
             <Text>This should not</Text>
           </div>

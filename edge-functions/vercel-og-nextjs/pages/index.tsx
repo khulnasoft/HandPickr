@@ -4,8 +4,8 @@ export default function Page() {
   return (
     <div>
       <Head>
-        <meta name="og:title" content="Vercel Edge Network" />
-        <meta name="og:description" content="Vercel Edge Network" />
+        <meta name="og:title" content="Khulnasoft Edge Network" />
+        <meta name="og:description" content="Khulnasoft Edge Network" />
         <meta
           name="og:image"
           content={

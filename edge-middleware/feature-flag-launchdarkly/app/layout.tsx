@@ -4,7 +4,7 @@ import '@vercel/examples-ui/globals.css'
 
 export const metadata = getMetadata({
   title: 'feature-flag-launchdarkly',
-  description: 'An example showing how to use Vercel with LaunchDarkly',
+  description: 'An example showing how to use Khulnasoft with LaunchDarkly',
 })
 export const runtime = 'edge'
 

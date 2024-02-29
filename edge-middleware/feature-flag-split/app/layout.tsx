@@ -3,8 +3,8 @@ import { Layout, getMetadata } from '@vercel/examples-ui'
 import '@vercel/examples-ui/globals.css'
 
 export const metadata = getMetadata({
-  title: 'feature-flag-split - Vercel Examples',
-  description: 'An example showing how to use Vercel with Split.io',
+  title: 'feature-flag-split - Khulnasoft Examples',
+  description: 'An example showing how to use Khulnasoft with Split.io',
 })
 
 export default function RootLayout({ children }: { children: ReactNode }) {

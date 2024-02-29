@@ -1,6 +1,6 @@
 # Node.js Hello World
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+Simple Node.js + Khulnasoft example that returns a "Hello World" response.
 
 ## How to Use
 
@@ -8,9 +8,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
 
 ### Clone and Deploy
 
@@ -18,7 +18,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 git clone https://github.com/khulnasoft/examples/tree/main/solutions/node-hello-world
 ```
 
-Install the Vercel CLI:
+Install the Khulnasoft CLI:
 
 ```bash
 npm i -g vercel

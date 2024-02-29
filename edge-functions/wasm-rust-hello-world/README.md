@@ -28,9 +28,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-hello-world&project-name=edge-wasm-rust-hello-world&repository-name=edge-wasm-rust-hello-world)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-hello-world&project-name=edge-wasm-rust-hello-world&repository-name=edge-wasm-rust-hello-world)
 
 ### Clone and Deploy
 
@@ -47,7 +47,7 @@ To build and run the example locally, you'll need to install the following prere
 1. [Rust](https://www.rust-lang.org/tools/install): The API Route for this example is written in Rust and requires the Rust toolchain to build.
 2. [`wasm-pack`](https://rustwasm.github.io/wasm-pack/installer/): is a helpful utility that builds, optimizes and packages Rust into WebAssembly. This example uses it for the build and optimization step (although it does not use it for packaging).
 
-Then, install the Vercel CLI which you'll use to run the app:
+Then, install the Khulnasoft CLI which you'll use to run the app:
 
 ```bash
 npm i -g vercel
@@ -59,4 +59,4 @@ Run the app at the root of the repository:
 vercel dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).

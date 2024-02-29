@@ -1,21 +1,21 @@
 ---
-name: Vercel KV for Redis SvelteKit Starter
+name: Khulnasoft KV for Redis SvelteKit Starter
 slug: kv-redis-sveltekit
-description: Simple SvelteKit template that uses Vercel KV for Redis to track pageviews.
+description: Simple SvelteKit template that uses Khulnasoft KV for Redis to track pageviews.
 framework: Svelte
 useCase: Starter
 css: Tailwind
-database: Vercel KV
-deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fkv-redis-sveltekit&project-name=kv-redis-sveltekit&repository-name=kv-redis-sveltekit&demo-title=Vercel%20KV%20for%20Redis%20SvelteKit%20Starter&demo-description=Simple%20Svelte%20template%20that%20uses%20Vercel%20KV%20for%20Redis%20to%20track%20pageviews.&demo-url=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"kv"%7D%5D
+database: Khulnasoft KV
+deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fkv-redis-sveltekit&project-name=kv-redis-sveltekit&repository-name=kv-redis-sveltekit&demo-title=Khulnasoft%20KV%20for%20Redis%20SvelteKit%20Starter&demo-description=Simple%20Svelte%20template%20that%20uses%20Khulnasoft%20KV%20for%20Redis%20to%20track%20pageviews.&demo-url=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"kv"%7D%5D
 demoUrl: https://kv-redis-sveltekit.vercel.app/
 relatedTemplates:
   - blob-starter
   - postgres-starter
 ---
 
-# Vercel KV for Redis SvelteKit Starter
+# Khulnasoft KV for Redis SvelteKit Starter
 
-Simple SvelteKit template that uses [Vercel KV for Redis](https://vercel.com/kv) to track pageviews.
+Simple SvelteKit template that uses [Khulnasoft KV for Redis](https://vercel.com/kv) to track pageviews.
 
 ## Demo
 
@@ -27,9 +27,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fkv-redis-sveltekit&project-name=kv-redis-sveltekit&repository-name=kv-redis-sveltekit&demo-title=Vercel%20KV%20for%20Redis%20Svelte%20Starter&demo-description=Simple%20SvelteKit%20template%20that%20uses%20Vercel%20KV%20for%20Redis%20to%20track%20pageviews.&demo-url=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"kv"%7D%5D)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fkv-redis-sveltekit&project-name=kv-redis-sveltekit&repository-name=kv-redis-sveltekit&demo-title=Khulnasoft%20KV%20for%20Redis%20Svelte%20Starter&demo-description=Simple%20SvelteKit%20template%20that%20uses%20Khulnasoft%20KV%20for%20Redis%20to%20track%20pageviews.&demo-url=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fkv-redis-sveltekit.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"kv"%7D%5D)
 
 ### Clone and Deploy
 
@@ -39,9 +39,9 @@ Execute the following command to download the example into the `my-project` fold
 npx degit@latest https://github.com/khulnasoft/examples/storage/kv-redis-sveltekit my-project
 ```
 
-Once you've created the project and installed dependencies with `pnpm install`, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git). Then open `.env.local` and set the environment variables to match the ones in your Vercel Storage Dashboard.
+Once you've created the project and installed dependencies with `pnpm install`, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git). Then open `.env.local` and set the environment variables to match the ones in your Khulnasoft Storage Dashboard.
 
-Alternatively, if you have setup a project already and you have installed the Vercel CLI, you can also pull the environment variables using the following command:
+Alternatively, if you have setup a project already and you have installed the Khulnasoft CLI, you can also pull the environment variables using the following command:
 
 ```bash
 vercel env pull .env.local
@@ -53,4 +53,4 @@ Next, run SvelteKit in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://vercel.com/docs/frameworks/sveltekit)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://vercel.com/docs/frameworks/sveltekit)).

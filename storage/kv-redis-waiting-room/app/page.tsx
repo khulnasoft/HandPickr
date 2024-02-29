@@ -18,7 +18,7 @@ export default function Home() {
               href="https://vercel.com/docs/storage/vercel-kv"
               className="underline decoration-slate-300"
             >
-              Vercel KV for Redis
+              Khulnasoft KV for Redis
             </a>{' '}
             to create a queue and store the number of people in the queue. If
             more than 10 people are in the queue in a 30 minute period, the

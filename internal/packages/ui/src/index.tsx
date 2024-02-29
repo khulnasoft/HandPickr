@@ -17,6 +17,6 @@ export const getMetadata = ({
   title?: string
   description?: string
 } = {}) => ({
-  title: title ? `${title} - Vercel Examples` : 'Vercel Example',
+  title: title ? `${title} - Khulnasoft Examples` : 'Khulnasoft Example',
   description,
 })

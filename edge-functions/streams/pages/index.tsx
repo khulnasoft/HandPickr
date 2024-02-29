@@ -10,7 +10,7 @@ function Index() {
         <Text className="mb-4">
           With{' '}
           <Link href="https://vercel.com/docs/concepts/functions/edge-functions">
-            Vercel Edge Functions
+            Khulnasoft Edge Functions
           </Link>{' '}
           we can do streaming at the edge using Web APIs. Click the buttons
           below for some examples:

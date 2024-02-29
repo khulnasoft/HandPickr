@@ -2,7 +2,7 @@
 
 ## Build Output API
 
-This Prebuilt Deployment example demonstrates how leverage the [Vercel Image Optimization](https://vercel.com/docs/concepts/image-optimization) platform feature using the [Build Output API](https://vercel.com/docs/build-output-api/v3#build-output-configuration/images).
+This Prebuilt Deployment example demonstrates how leverage the [Khulnasoft Image Optimization](https://vercel.com/docs/concepts/image-optimization) platform feature using the [Build Output API](https://vercel.com/docs/build-output-api/v3#build-output-configuration/images).
 
 ### Demo
 

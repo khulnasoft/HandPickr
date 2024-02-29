@@ -15,7 +15,7 @@ relatedTemplates:
 
 # Hostname Rewrites
 
-> If you're building a Platforms on Vercel, this example is for you.
+> If you're building a Platforms on Khulnasoft, this example is for you.
 
 In this example, you'll learn how to programmatically create unique content pages for your users with a multi-tenant infrastructure using Edge Middleware. Each user gets assigned a unique subdomain when they create their account, with the (usually paid) option to add a custom domain.
 
@@ -58,9 +58,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites)
 
 ### Clone and Deploy
 
@@ -85,6 +85,6 @@ Next, run Next.js in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
 
-> 💡 Do note that you will need to replace the `ROOT_DOMAIN` variable in `.env.local` with your domain of choice and add that domain as a wildcard domain to your Vercel project.
+> 💡 Do note that you will need to replace the `ROOT_DOMAIN` variable in `.env.local` with your domain of choice and add that domain as a wildcard domain to your Khulnasoft project.

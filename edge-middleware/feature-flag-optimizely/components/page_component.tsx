@@ -23,10 +23,10 @@ export default function PageComponent({
           <br />
           This example displays two variants of product pages to the users. Both
           pages use different sorting orders to display the list of products. It
-          uses Optimizely feature flag in the Vercel Middleware to determine the
-          sort order and to redirect users to correct pages. A unique visitor id
-          is being generated, stored in the cookie and reused so that the
-          decisions stick for the same browser session.
+          uses Optimizely feature flag in the Khulnasoft Middleware to determine
+          the sort order and to redirect users to correct pages. A unique
+          visitor id is being generated, stored in the cookie and reused so that
+          the decisions stick for the same browser session.
           <br />
           <br />
           This example uses Optimizely&nbsp;
@@ -36,7 +36,7 @@ export default function PageComponent({
           >
             Javascript SDK
           </Link>{' '}
-          inside Vercel Middleware to provide a starting point for you to
+          inside Khulnasoft Middleware to provide a starting point for you to
           implement experimentation and feature flagging for your experiences at
           the edge. For a guide to getting started with our platform more
           generally, this can be combined with the steps outlined in our

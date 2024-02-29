@@ -27,9 +27,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fedge-functions%2Fapi-rate-limit-and-tokens&env=UPSTASH_REST_API_DOMAIN,UPSTASH_REST_API_TOKEN,API_KEYS_JWT_SECRET_KEY&project-name=api-rate-limit-and-tokens&repository-name=api-rate-limit-and-tokens)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fedge-functions%2Fapi-rate-limit-and-tokens&env=UPSTASH_REST_API_DOMAIN,UPSTASH_REST_API_TOKEN,API_KEYS_JWT_SECRET_KEY&project-name=api-rate-limit-and-tokens&repository-name=api-rate-limit-and-tokens)
 
 ### Clone and Deploy
 
@@ -59,4 +59,4 @@ Next, run Next.js in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).

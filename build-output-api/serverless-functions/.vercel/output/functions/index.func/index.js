@@ -4,7 +4,7 @@ module.exports = (req, res) => {
   const { name = 'friend' } = req.query
 
   const text =
-    `Howdy ${name}, from Vercel!\n` +
+    `Howdy ${name}, from Khulnasoft!\n` +
     `Node.js: ${process.version}\n` +
     `Request URL: ${req.url}\n` +
     `Server time: ${new Date().toISOString()})`

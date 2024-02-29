@@ -1,6 +1,6 @@
 import type { ReactNode, ComponentType } from 'react'
 import { Nav, type NavProps } from './nav.js'
-import Vercel from './icons/vercel.js'
+import Khulnasoft from './icons/vercel.js'
 
 export interface LayoutProps extends NavProps {
   children?: ReactNode
@@ -22,14 +22,14 @@ export const Layout = ({ path, deployButton, children }: LayoutProps) => (
       <span className="text-primary">Created by</span>
       <a
         href="https://vercel.com"
-        aria-label="Vercel.com Link"
+        aria-label="Khulnasoft.com Link"
         target="_blank"
         rel="noreferrer"
         className="text-black"
       >
-        <Vercel
+        <Khulnasoft
           className="inline-block h-6 ml-3 text-primary"
-          alt="Vercel.com Logo"
+          alt="Khulnasoft.com Logo"
         />
       </a>
     </footer>

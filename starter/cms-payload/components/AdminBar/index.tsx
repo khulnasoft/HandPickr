@@ -9,7 +9,7 @@ import {
 import { Gutter } from '../Gutter'
 import classes from './index.module.scss'
 
-const Title: React.FC = () => <span>Payload + Vercel</span>
+const Title: React.FC = () => <span>Payload + Khulnasoft</span>
 
 export const AdminBar: React.FC<{
   adminBarProps: PayloadAdminBarProps

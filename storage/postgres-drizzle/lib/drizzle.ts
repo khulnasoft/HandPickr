@@ -28,5 +28,5 @@ export const UsersTable = pgTable(
 export type User = InferSelectModel<typeof UsersTable>
 export type NewUser = InferInsertModel<typeof UsersTable>
 
-// Connect to Vercel Postgres
+// Connect to Khulnasoft Postgres
 export const db = drizzle(sql)

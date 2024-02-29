@@ -8,7 +8,7 @@ import Loader from './Loader'
 import useRequireAuth from '../../lib/useRequireAuth'
 
 export default function Layout({ siteId, children }) {
-  const title = 'Platforms on Vercel'
+  const title = 'Platforms on Khulnasoft'
   const description =
     'Create a fullstack application with multi-tenancy and custom domains support using Next.js, Supabase, and PostgreSQL'
   const logo = '/favicon.ico'
@@ -46,7 +46,7 @@ export default function Layout({ siteId, children }) {
           <meta property="og:type" content="website" />
 
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@Vercel" />
+          <meta name="twitter:site" content="@Khulnasoft" />
           <meta name="twitter:creator" content="@StevenTey" />
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />

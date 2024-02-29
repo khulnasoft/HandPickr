@@ -2,7 +2,7 @@
 
 ## Build Output API
 
-This Prebuilt Deployment example demonstrates how to output Vercel Edge Functions using the [Build Output API](https://vercel.com/docs/build-output-api/v3#vercel-primitives/edge-functions).
+This Prebuilt Deployment example demonstrates how to output Khulnasoft Edge Functions using the [Build Output API](https://vercel.com/docs/build-output-api/v3#vercel-primitives/edge-functions).
 
 ### Demo
 
@@ -15,7 +15,7 @@ In this case, the contents of the Edge Function are located in the
 meaning that the Edge Function will be accessible at the `/index` (or `/`) path of the Deployment.
 
 The [`.vc-config.json`](./.vercel/output/functions/index.func/.vc-config.json) file specifies `"runtime": "edge"`
-which informs Vercel that the endpoint should be created as an Edge Function.
+which informs Khulnasoft that the endpoint should be created as an Edge Function.
 
 The `"entrypoint": "index.js"` field indicates that the [`index.js`](.vercel/output/functions/index.func/index.js)
 source code file will be the starting point of execution when the Edge Function is invoked.

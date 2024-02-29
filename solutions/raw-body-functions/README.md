@@ -1,6 +1,6 @@
 # Raw Body in Serverless Functions
 
-You can use Vercel Serverless Functions to receive webhooks from third-party services like Stripe. Certain providers require access to the raw body inside the function to validate the signature from the request.
+You can use Khulnasoft Serverless Functions to receive webhooks from third-party services like Stripe. Certain providers require access to the raw body inside the function to validate the signature from the request.
 
 ## How to Use
 
@@ -8,9 +8,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/raw-body-functions&project-name=raw-body-functions&repository-name=raw-body-functions)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/raw-body-functions&project-name=raw-body-functions&repository-name=raw-body-functions)
 
 ### Clone and Deploy
 
@@ -22,7 +22,7 @@ npx create-next-app --example https://github.com/khulnasoft/examples/tree/main/s
 yarn create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/raw-body-functions raw-body-functions
 ```
 
-Install the Vercel CLI:
+Install the Khulnasoft CLI:
 
 ```bash
 npm i -g vercel

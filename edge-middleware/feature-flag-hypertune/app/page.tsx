@@ -3,9 +3,9 @@ import { Text, Page, Link, List } from '@vercel/examples-ui'
 import ServerExample from '../lib/ServerExample'
 
 export const metadata = {
-  title: 'Vercel x Hypertune example',
+  title: 'Khulnasoft x Hypertune example',
   description:
-    'An example showing how to use Hypertune and Vercel. This example builds on top of the Hypertune integration which syncs Hypertune flags into Edge Config, so you can read them from your application near-instantly.',
+    'An example showing how to use Hypertune and Khulnasoft. This example builds on top of the Hypertune integration which syncs Hypertune flags into Edge Config, so you can read them from your application near-instantly.',
 }
 
 export const runtime = 'edge'
@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6">
-        <Text variant="h1">Hypertune with Vercel Edge Config</Text>
+        <Text variant="h1">Hypertune with Khulnasoft Edge Config</Text>
         <Text>
           This example shows how to use the{' '}
           <Link
@@ -42,7 +42,7 @@ export default async function Home() {
             Clone your project&apos;s repository and <strong>cd</strong> into it
           </li>
           <li>
-            Run <strong>vercel link</strong> to link to the Vercel project
+            Run <strong>vercel link</strong> to link to the Khulnasoft project
           </li>
           <li>
             Run <strong>vercel env pull .env.development.local</strong> to pull

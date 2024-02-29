@@ -146,7 +146,12 @@ export default function Home() {
         >
           Powered by{' '}
           <div className="flex ml-2">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={71} height={16} />
+            <Image
+              src="/vercel.svg"
+              alt="Khulnasoft Logo"
+              width={71}
+              height={16}
+            />
           </div>
         </a>
       </footer>

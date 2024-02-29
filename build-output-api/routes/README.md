@@ -2,7 +2,7 @@
 
 ## Build Output API
 
-This Prebuilt Deployment example demonstrates how to output Vercel Routes using the [Build Output API](https://vercel.com/docs/build-output-api/v3#build-output-configuration/routes).
+This Prebuilt Deployment example demonstrates how to output Khulnasoft Routes using the [Build Output API](https://vercel.com/docs/build-output-api/v3#build-output-configuration/routes).
 
 ### Demo
 

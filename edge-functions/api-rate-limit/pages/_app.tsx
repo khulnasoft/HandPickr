@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Layout
-      title="API Rate Limiting with Vercel KV"
+      title="API Rate Limiting with Khulnasoft KV"
       path="edge-functions/api-rate-limit"
       deployButton={{
         customDeployUrl:

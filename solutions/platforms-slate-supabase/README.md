@@ -1,7 +1,7 @@
 ---
 name: Blogging platform with Slate and Supabase
 slug: platforms-slate-supabase
-description: Build a blogging platform based on Slate.js, Supabase and Vercel.
+description: Build a blogging platform based on Slate.js, Supabase and Khulnasoft.
 framework: Next.js
 useCase: Documentation
 css: Tailwind
@@ -20,7 +20,7 @@ relatedTemplates:
 </p>
 
 <p align="center">
-Build a blogging platform based on Slate.js, Supabase and Vercel.
+Build a blogging platform based on Slate.js, Supabase and Khulnasoft.
 <br/>
 
 ## Deploy Your Own
@@ -44,7 +44,7 @@ This working demo site was built using the Platforms Starter Kit and:
 - [Tailwind](https://tailwindcss.com/) for CSS styling
 - [Supabase](https://supabase.com/) as the database
 - [NextAuth.js](https://next-auth.js.org/) for authentication
-- [Vercel](http://vercel.com/) for deployment
+- [Khulnasoft](http://vercel.com/) for deployment
 
 ## Contributing
 

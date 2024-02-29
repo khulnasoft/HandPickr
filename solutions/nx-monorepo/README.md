@@ -27,9 +27,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/nx-monorepo&project-name=nx-monorepo&output-directory=dist%2Fapps%2Fapp%2F.next&build-command=npx%20nx%20build%20app%20--prod&ignore-command=npx%20nx-ignore%20app&repository-name=nx-monorepo)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/nx-monorepo&project-name=nx-monorepo&output-directory=dist%2Fapps%2Fapp%2F.next&build-command=npx%20nx%20build%20app%20--prod&ignore-command=npx%20nx-ignore%20app&repository-name=nx-monorepo)
 
 ## Getting Started
 
@@ -87,7 +87,7 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ## Nx Cloud
 
-This example is configured to work out of the box with Nx Cloud. However, if deploying an existing project to Vercel - ensure:
+This example is configured to work out of the box with Nx Cloud. However, if deploying an existing project to Khulnasoft - ensure:
 
 If using `@nrwl/nx-cloud@14.6.0` or above
 

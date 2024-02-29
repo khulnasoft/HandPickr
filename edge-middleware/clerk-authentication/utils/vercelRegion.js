@@ -19,8 +19,8 @@ const vercelRegions = {
 }
 
 // Warning: This will mistakenly return "Development"
-// if not deploying on Vercel
-export const getVercelRegion = (header) => {
+// if not deploying on Khulnasoft
+export const getKhulnasoftRegion = (header) => {
   if (!header || header === '') {
     return 'Development'
   }

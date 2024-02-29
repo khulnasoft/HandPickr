@@ -29,9 +29,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-click deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore)
 
 ### Clone and deploy
 
@@ -47,7 +47,7 @@ Next, run the included Next.js apps in development mode:
 pnpm dev
 ```
 
-Deploy on [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy on [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ## What's Included?
 

@@ -1,12 +1,12 @@
 ---
-name: Vercel Postgres SvelteKit Starter
+name: Khulnasoft Postgres SvelteKit Starter
 slug: postgres-sveltekit
-description: Simple SvelteKit template that uses Vercel Postgres as the database.
+description: Simple SvelteKit template that uses Khulnasoft Postgres as the database.
 framework: Svelte
 useCase: Starter
 css: Tailwind
-database: Vercel Postgres
-deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fpostgres-sveltekit&project-name=postgres-sveltekit&repository-name=postgres-sveltekit&demo-title=Vercel%20Postgres%20Starter%sveltekit&demo-description=Simple%20Svelte.js%20template%20that%20uses%20Vercel%20Postgres%20as%20the%20database.&demo-url=https%3A%2F%2Fpostgres-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fpostgres-starter.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"postgres"%7D%5D
+database: Khulnasoft Postgres
+deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fpostgres-sveltekit&project-name=postgres-sveltekit&repository-name=postgres-sveltekit&demo-title=Khulnasoft%20Postgres%20Starter%sveltekit&demo-description=Simple%20Svelte.js%20template%20that%20uses%20Khulnasoft%20Postgres%20as%20the%20database.&demo-url=https%3A%2F%2Fpostgres-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fpostgres-starter.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"postgres"%7D%5D
 demoUrl: https://postgres-sveltekit.vercel.app/
 relatedTemplates:
   - postgres-starter
@@ -14,9 +14,9 @@ relatedTemplates:
   - postgres-kysely
 ---
 
-# Vercel Postgres SvelteKit Starter
+# Khulnasoft Postgres SvelteKit Starter
 
-Simple SvelteKit template that uses [Vercel Postgres](https://vercel.com/postgres) as the database.
+Simple SvelteKit template that uses [Khulnasoft Postgres](https://vercel.com/postgres) as the database.
 
 ## Demo
 
@@ -28,9 +28,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fpostgres-sveltekit&project-name=postgres-sveltekit&repository-name=postgres-sveltekit&demo-title=Vercel%20Postgres%20Next.js%Sveltekit&demo-description=Simple%20Next.js%20template%20that%20uses%20Vercel%20Postgres%20as%20the%20database.&demo-url=https%3A%2F%2Fpostgres-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fpostgres-starter.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"postgres"%7D%5D)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fpostgres-sveltekit&project-name=postgres-sveltekit&repository-name=postgres-sveltekit&demo-title=Khulnasoft%20Postgres%20Next.js%Sveltekit&demo-description=Simple%20Next.js%20template%20that%20uses%20Khulnasoft%20Postgres%20as%20the%20database.&demo-url=https%3A%2F%2Fpostgres-sveltekit.vercel.app%2F&demo-image=https%3A%2F%2Fpostgres-starter.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"postgres"%7D%5D)
 
 ### Clone and Deploy
 
@@ -40,9 +40,9 @@ Execute the following command to download the example into the `my-project` fold
 npx degit@latest https://github.com/khulnasoft/examples/storage/postgres-sveltekit my-project
 ```
 
-Once you've created the project and installed dependencies with `pnpm install`, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git). Then open `.env.local` and set the environment variables to match the ones in your Vercel Storage Dashboard.
+Once you've created the project and installed dependencies with `pnpm install`, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git). Then open `.env.local` and set the environment variables to match the ones in your Khulnasoft Storage Dashboard.
 
-Alternatively, if you have setup a project already and you have installed the Vercel CLI, you can also pull the environment variables using the following command:
+Alternatively, if you have setup a project already and you have installed the Khulnasoft CLI, you can also pull the environment variables using the following command:
 
 ```bash
 vercel env pull .env.local
@@ -54,4 +54,4 @@ Next, run SvelteKit in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://vercel.com/docs/frameworks/sveltekit)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://vercel.com/docs/frameworks/sveltekit)).

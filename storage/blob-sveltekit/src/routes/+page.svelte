@@ -19,12 +19,12 @@
     href="https://vercel.com/templates/next.js/blob-sveltekit"
     class="group mt-20 sm:mt-0 rounded-full flex space-x-1 bg-white/30 shadow-sm ring-1 ring-gray-900/5 text-gray-600 text-sm font-medium px-10 py-2 hover:shadow-lg active:shadow-sm transition-all"
   >
-    Deploy your own to Vercel
+    Deploy your own to Khulnasoft
   </a>
   <h1
     class="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
   >
-    Blob on Vercel
+    Blob on Khulnasoft
   </h1>
   <div
     class="flex flex-col items-center w-full max-w-xl p-12 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
@@ -131,7 +131,7 @@
       href="https://vercel.com/blob"
       class="font-medium underline underline-offset-4 hover:text-black transition-colors"
     >
-      Vercel Blob
+      Khulnasoft Blob
     </a>{' '}
     demo.
     <span>Built with</span>
@@ -146,7 +146,7 @@
   </div>
   <div class="sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
     <a href="https://vercel.com">
-      <img src="/vercel.svg" alt="Vercel Logo" width={100} height={24} />
+      <img src="/vercel.svg" alt="Khulnasoft Logo" width={100} height={24} />
     </a>
     <a
       href="https://github.com/khulnasoft/examples/tree/main/storage/blob-sveltekit"

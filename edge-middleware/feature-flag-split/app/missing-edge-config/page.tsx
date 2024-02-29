@@ -62,8 +62,9 @@ export default function MissingEdgeConfigDialog() {
                       </span>{' '}
                       environment variable configured and it contains the item
                       key as specified by the Split integration. You can find
-                      this key on your account at Vercel under Integrations &gt;
-                      Split &gt; Manage &gt; Configure &gt; Edge Config Item Key
+                      this key on your account at Khulnasoft under Integrations
+                      &gt; Split &gt; Manage &gt; Configure &gt; Edge Config
+                      Item Key
                     </li>
                     <li className="list-item list-disc">
                       Pull your latest Environment Variables if you are

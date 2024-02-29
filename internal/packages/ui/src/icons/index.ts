@@ -1,1 +1,1 @@
-export { default as Vercel } from './vercel.js'
+export { default as Khulnasoft } from './vercel.js'

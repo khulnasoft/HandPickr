@@ -27,9 +27,9 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-After [setting up your environment variables](#set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
+After [setting up your environment variables](#set-up-environment-variables), deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/personalization-builder-io&project-name=personalization-builder-io&env=BUILDER_PUBLIC_KEY,BUILDER_PRIVATE_KEY&project-name=personalization-builder-io&repo-name=personalization-builder-io)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/personalization-builder-io&project-name=personalization-builder-io&env=BUILDER_PUBLIC_KEY,BUILDER_PRIVATE_KEY&project-name=personalization-builder-io&repo-name=personalization-builder-io)
 
 ### Clone and Deploy
 
@@ -131,7 +131,7 @@ yarn
 yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ### Experimenting
 
