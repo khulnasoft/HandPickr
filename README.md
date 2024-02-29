@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://vercel.com">
     <img src="https://avatars.githubusercontent.com/u/43526139?s=400&u=4355b45dd52b19a45a83f86b7f90ef5ad6ecc2cb&v=4" height="96">
-    <h3 align="center">Khulnasoft Examples</h3>
+    <h3 align="center">Khulnasoft HandPickr</h3>
   </a>
 </p>
 
