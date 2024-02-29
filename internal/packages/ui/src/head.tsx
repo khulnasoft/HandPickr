@@ -8,7 +8,7 @@ export const Head = ({
   description?: string
 }) => (
   <NextHead>
-    {title && <title>{`${title} - Vercel Examples`}</title>}
+    {title && <title>{`${title} - Khulnasoft Examples`}</title>}
     {description && <meta name="description" content={description} />}
     <link rel="icon" href="/favicon.ico" />
   </NextHead>

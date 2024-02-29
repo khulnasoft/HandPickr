@@ -24,7 +24,7 @@ export default async function handler(_: NextRequest) {
       start(controller) {
         controller.enqueue(
           encoder.encode(
-            `<html><head><title>Vercel Edge Functions + Streams + Transforms</title></head><body>`
+            `<html><head><title>Khulnasoft Edge Functions + Streams + Transforms</title></head><body>`
           )
         )
         controller.enqueue(encoder.encode(`Resource: ${RESOURCE_URL}<br/>`))

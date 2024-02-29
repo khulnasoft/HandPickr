@@ -19,14 +19,14 @@ You can choose from one of the following two methods to use this repository:
 ### One-Click Deploy
 
 Deploy the example using
-[Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
+[Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/auth-with-ory&env=ORY_SDK_URL&project-name=ory-authentication&repo-name=ory-authentication)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/auth-with-ory&env=ORY_SDK_URL&project-name=ory-authentication&repo-name=ory-authentication)
 
 ### Clone and Deploy
 
 Execute
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+[`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app)
 with [npm](https://docs.npmjs.com/cli/init) or
 [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 

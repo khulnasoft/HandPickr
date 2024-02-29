@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <Layout
       title="Streaming in Edge Functions"
       path="edge-functions/streams"
-      description="Learn how to use Streams in Vercel Edge Functions"
+      description="Learn how to use Streams in Khulnasoft Edge Functions"
     >
       <Component {...pageProps} />
     </Layout>

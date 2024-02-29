@@ -4,7 +4,7 @@ This is a Slackbot you can ask questions and get answers from OpenAI's GPT model
 
 ### Environment Variables
 
-After completing the setup instructions below, you will have the following `.env` file in your project for testing locally, and the same environment variables added on Vercel:
+After completing the setup instructions below, you will have the following `.env` file in your project for testing locally, and the same environment variables added on Khulnasoft:
 
 ```bash
 OPENAI_API_KEY=
@@ -16,7 +16,7 @@ SLACK_ADMIN_MEMBER_ID=
 #### OpenAI API Key
 
 - Create a new key on [OpenAI API Keys](https://platform.openai.com/api-keys) and "Create new secret key", optionally naming the key.
-- Add the key to Vercel's environment variables as `OPENAI_API_KEY`.
+- Add the key to Khulnasoft's environment variables as `OPENAI_API_KEY`.
 
 #### Slack Bot Token & Signing Secret
 
@@ -34,16 +34,16 @@ Go to [Slack API Apps Page](https://api.slack.com/apps):
     - `commands`
   - Click "Install to Workplace"
   - Copy **Bot User OAuth Token**
-  - Add the token to Vercel's environment variables as `SLACK_BOT_TOKEN`
+  - Add the token to Khulnasoft's environment variables as `SLACK_BOT_TOKEN`
 - Getting signing secret
   - Basic Information --> App Credentials --> Copy **Signing Secret**
-  - Add the secret to Vercel's environment variables as `SLACK_SIGNING_SECRET`
+  - Add the secret to Khulnasoft's environment variables as `SLACK_SIGNING_SECRET`
 
 #### Admin's Slack Member ID
 
 - Click on your profile picture in Slack and click **Profile**.
 - Click on the three dots in the middle right corner and select **Copy member ID**.
-- Add the ID to Vercel's environment variables as `SLACK_ADMIN_MEMBER_ID`.
+- Add the ID to Khulnasoft's environment variables as `SLACK_ADMIN_MEMBER_ID`.
 
 ### Enable Slack Events
 
@@ -52,7 +52,7 @@ After successfully deploying the app, go to [Slack API Apps Page](https://api.sl
 - Go to **Event Subscriptions** and enable events.
 - Add the following URL to **Request URL**:
   - `https://<your-vercel-app>.vercel.app/api/events`
-  - Make sure the URL is verified, otherwise check out [Vercel Logs](https://vercel.com/docs/observability/runtime-logs) for troubleshooting.
+  - Make sure the URL is verified, otherwise check out [Khulnasoft Logs](https://vercel.com/docs/observability/runtime-logs) for troubleshooting.
   - Subscribe to bot events by adding:
     - `app_mention`
     - `channel_created`
@@ -61,7 +61,7 @@ After successfully deploying the app, go to [Slack API Apps Page](https://api.sl
 
 ## Local Development
 
-Use the [Vercel CLI](https://vercel.com/docs/cli) and [localtunnel](https://github.com/localtunnel/localtunnel) to test out this project locally:
+Use the [Khulnasoft CLI](https://vercel.com/docs/cli) and [localtunnel](https://github.com/localtunnel/localtunnel) to test out this project locally:
 
 ```sh
 pnpm i -g vercel

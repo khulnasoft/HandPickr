@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       path="solutions/microfrontends"
       deployButton={{
         repositoryUrl:
-          'https://github.com/vercel/examples/tree/main/solutions/microfrontends',
+          'https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends',
       }}
     >
       <Component {...pageProps} />

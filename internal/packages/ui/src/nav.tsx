@@ -2,7 +2,7 @@ import { Link } from './link.js'
 import { Button } from './button.js'
 import { DeployButton, type DeployButtonProps } from './deploy-button.js'
 
-const REPO_URL = 'https://github.com/vercel/examples/tree/main'
+const REPO_URL = 'https://github.com/khulnasoft/examples/tree/main'
 
 export interface NavProps {
   path: string
@@ -10,7 +10,7 @@ export interface NavProps {
 }
 
 export const Nav = ({ path, deployButton }: NavProps) => {
-  const displayPath = ['Vercel Examples']
+  const displayPath = ['Khulnasoft Examples']
     .concat(path?.split('/').filter(Boolean) || [])
     .join(' / ')
   const repositoryUrl = deployButton?.repositoryUrl || `${REPO_URL}/${path}`
@@ -22,7 +22,7 @@ export const Nav = ({ path, deployButton }: NavProps) => {
           <Link href="/">
             <span>
               <svg height="26" viewBox="0 0 75 65" fill="#000">
-                <title>Vercel Logo</title>
+                <title>Khulnasoft Logo</title>
                 <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
               </svg>
             </span>
@@ -61,7 +61,7 @@ export const Nav = ({ path, deployButton }: NavProps) => {
               <Button
                 variant="ghost"
                 Component="a"
-                href="https://github.com/vercel/examples/tree/main"
+                href="https://github.com/khulnasoft/examples/tree/main"
                 target="_blank"
                 rel="noreferrer"
               >

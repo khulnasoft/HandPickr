@@ -1,4 +1,4 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node'
+import type { KhulnasoftRequest, KhulnasoftResponse } from '@vercel/node'
 import type { Readable } from 'node:stream'
 
 export const config = {
@@ -15,7 +15,10 @@ async function buffer(readable: Readable) {
   return Buffer.concat(chunks)
 }
 
-export default async function (req: VercelRequest, res: VercelResponse) {
+export default async function (
+  req: KhulnasoftRequest,
+  res: KhulnasoftResponse
+) {
   if (req.method === 'POST') {
     const buf = await buffer(req)
     const rawBody = buf.toString('utf8')

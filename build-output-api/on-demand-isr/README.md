@@ -31,7 +31,7 @@ In this demo, you can see this happening with two paths: `/` and `/data`.
   - [trigger our custom revalidation handler](./.vercel/output/functions/index.func/index.js#L29)
   - [trigger the actual revalidation](./.vercel/output/functions/revalidate.func/index.js#L23)
 
-When the revalidation is triggered, the cache will be revalidated, bypassing any caching that Vercel would normally provide.
+When the revalidation is triggered, the cache will be revalidated, bypassing any caching that Khulnasoft would normally provide.
 
 There is also an example of a blog that only generates new paths when triggered via On-Demand ISR with two initial posts that are prerendered.
 

@@ -61,7 +61,7 @@ export default function MissingSplitItemDialog() {
                     </li>
                     <li className="list-item list-disc">
                       Make sure the integration is configured to sync your Split
-                      project to a Vercel Edge Config. Go to vercel.com →
+                      project to a Khulnasoft Edge Config. Go to vercel.com →
                       Integrations → Split → Manage → Configure.
                     </li>
                     <li className="list-item list-disc">
@@ -77,8 +77,8 @@ export default function MissingSplitItemDialog() {
                       </span>{' '}
                       environment variable configured and it contains the item
                       key as specified by the Split integration. You can find
-                      this key on your account at Vercel under Integrations →
-                      Split → Manage → Configure → Edge Config Item Key
+                      this key on your account at Khulnasoft under Integrations
+                      → Split → Manage → Configure → Edge Config Item Key
                     </li>
                     <li className="list-item list-disc">
                       Ensure the Edge Config actually contains your Split data.
@@ -109,7 +109,7 @@ export default function MissingSplitItemDialog() {
             </div>
             <div className="mt-5 sm:mt-4 sm:ml-10 sm:flex sm:pl-4">
               <a
-                href="https://github.com/vercel/examples/blob/main/edge-middleware/feature-flag-split/README.md#set-up-environment-variables"
+                href="https://github.com/khulnasoft/examples/blob/main/edge-middleware/feature-flag-split/README.md#set-up-environment-variables"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full justify-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:w-auto sm:text-sm"

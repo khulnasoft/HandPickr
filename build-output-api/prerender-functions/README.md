@@ -2,7 +2,7 @@
 
 ## Build Output API
 
-This Prebuilt Deployment example demonstrates how to output Vercel Serverless Functions that leverage the "prerender" feature using the [Build Output API](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions).
+This Prebuilt Deployment example demonstrates how to output Khulnasoft Serverless Functions that leverage the "prerender" feature using the [Build Output API](https://vercel.com/docs/build-output-api/v3#vercel-primitives/prerender-functions).
 
 ### Demo
 

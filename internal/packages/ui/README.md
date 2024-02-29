@@ -1,4 +1,4 @@
-# UI components for Vercel examples
+# UI components for Khulnasoft examples
 
 The UI components exported here are being used in many of the examples in this repository. They're built with React, TypeScript, and Tailwind CSS.
 

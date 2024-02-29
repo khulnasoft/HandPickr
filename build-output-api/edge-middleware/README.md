@@ -2,7 +2,7 @@
 
 ## Build Output API
 
-This Prebuilt Deployment example demonstrates how to output Vercel Middleware using the [Build Output API](https://vercel.com/docs/build-output-api/v3#features/edge-middleware).
+This Prebuilt Deployment example demonstrates how to output Khulnasoft Middleware using the [Build Output API](https://vercel.com/docs/build-output-api/v3#features/edge-middleware).
 
 ### Demo
 
@@ -16,7 +16,7 @@ An accompanying "route" is placed in the [`config.json`](./.vercel/output/config
 specifies that the middleware function will be invoked for every HTTP request due to the `"src": "/(.*)"` clause.
 
 The [`.vc-config.json`](./.vercel/output/functions/_middleware.func/.vc-config.json) file specifies `"runtime": "edge"`
-which informs Vercel that the endpoint should be created as an Edge Function.
+which informs Khulnasoft that the endpoint should be created as an Edge Function.
 
 The `"entrypoint": "index.js"` field indicates that the [`index.js`](.vercel/output/functions/_middleware.func/index.js)
 source code file will export an Edge Middleware Function that processes each request.

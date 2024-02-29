@@ -17,7 +17,8 @@ function RateLimit() {
           API Rate Limiting with Upstash
         </Text>
         <Text className="mb-4">
-          With <i className="font-semibold">Vercel&apos;s Edge Middleware</i>{' '}
+          With{' '}
+          <i className="font-semibold">Khulnasoft&apos;s Edge Middleware</i>{' '}
           we&apos;re able to do API rate limiting by keeping a counter of
           requests by IP or API token. For the demo below you can send a maximum
           of <b>5</b> requests every <b>10</b> seconds, which increases if using

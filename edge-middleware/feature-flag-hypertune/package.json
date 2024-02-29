@@ -1,6 +1,6 @@
 {
   "name": "nextjs",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/khulnasoft/examples.git",
   "license": "MIT",
   "version": "0.1.0",
   "private": true,

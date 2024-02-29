@@ -23,18 +23,18 @@ const html = `
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
     />
-    <title>Vercel + Fastify Hello World</title>
+    <title>Khulnasoft + Fastify Hello World</title>
     <meta
       name="description"
-      content="This is a starter template for Vercel + Fastify."
+      content="This is a starter template for Khulnasoft + Fastify."
     />
   </head>
   <body>
-    <h1>Vercel + Fastify Hello World</h1>
+    <h1>Khulnasoft + Fastify Hello World</h1>
     <p>
-      This is a starter template for Vercel + Fastify. Requests are
+      This is a starter template for Khulnasoft + Fastify. Requests are
       rewritten from <code>/*</code> to <code>/api/*</code>, which runs
-      as a Vercel Function.
+      as a Khulnasoft Function.
     </p>
     <p>
         For example, here is the boilerplate code for this route:

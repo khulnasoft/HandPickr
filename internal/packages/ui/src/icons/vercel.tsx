@@ -1,4 +1,4 @@
-const Vercel = ({ ...props }) => {
+const Khulnasoft = ({ ...props }) => {
   return (
     <svg
       width="89"
@@ -37,4 +37,4 @@ const Vercel = ({ ...props }) => {
   )
 }
 
-export default Vercel
+export default Khulnasoft

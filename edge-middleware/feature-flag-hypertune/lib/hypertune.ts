@@ -9,7 +9,7 @@ const hypertune = initializeHypertune(
       ? createClient(process.env.EDGE_CONFIG)
       : undefined,
     vercelEdgeConfigItemKey: process.env.EDGE_CONFIG_HYPERTUNE_ITEM_KEY,
-  },
+  }
 )
 
 export default hypertune

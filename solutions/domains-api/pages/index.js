@@ -44,7 +44,7 @@ export default function Home() {
         }}
       />
       <a
-        href="https://github.com/vercel/examples/tree/main/solutions/domains-api"
+        href="https://github.com/khulnasoft/examples/tree/main/solutions/domains-api"
         target="_blank"
         rel="noreferrer"
         className="fixed top-5 right-5"
@@ -146,7 +146,12 @@ export default function Home() {
         >
           Powered by{' '}
           <div className="flex ml-2">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={71} height={16} />
+            <Image
+              src="/vercel.svg"
+              alt="Khulnasoft Logo"
+              width={71}
+              height={16}
+            />
           </div>
         </a>
       </footer>

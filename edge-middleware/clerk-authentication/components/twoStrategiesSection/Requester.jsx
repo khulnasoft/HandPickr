@@ -1,6 +1,6 @@
 import React from 'react'
 import { ClerkLoading, SignedIn, SignedOut, useClerk } from '@clerk/nextjs'
-import { getVercelRegion } from 'utils/vercelRegion'
+import { getKhulnasoftRegion } from 'utils/vercelRegion'
 import { SignInCover } from 'utils/buttons'
 import { Result } from './Result'
 
@@ -99,7 +99,9 @@ export const RequestButton = ({
       const data = await response.json()
       setResult({
         responseTime: responseTime,
-        responseRegion: getVercelRegion(response.headers.get('x-vercel-id')),
+        responseRegion: getKhulnasoftRegion(
+          response.headers.get('x-vercel-id')
+        ),
         ...data,
       })
     } else if (response.status === 403) {

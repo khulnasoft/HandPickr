@@ -30,7 +30,7 @@ export function botd(opts?: any): Promise<any> {
  */
 export async function botDetect(...args: any[]) {
   const agent = await botd()
-  return agent.detect('Vercel', ...args)
+  return agent.detect('Khulnasoft', ...args)
 }
 
 export function BotdScript(props: ScriptProps) {

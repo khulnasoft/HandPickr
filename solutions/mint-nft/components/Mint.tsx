@@ -45,8 +45,8 @@ export const Mint: React.VFC = () => {
       await enableWeb3()
 
       const metadata = {
-        name: 'My own NFT by Vercel',
-        description: 'NFTs minted using Vercel and Next.js',
+        name: 'My own NFT by Khulnasoft',
+        description: 'NFTs minted using Khulnasoft and Next.js',
         //@ts-ignore
         image: `/ipfs/${asset!.hash()}`,
       }

@@ -49,7 +49,7 @@ export default function Layout({ meta, children, subdomain }) {
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Vercel" />
+        <meta name="twitter:site" content="@Khulnasoft" />
         <meta name="twitter:creator" content="@StevenTey" />
         <meta name="twitter:title" content={meta?.title} />
         <meta name="twitter:description" content={meta?.description} />

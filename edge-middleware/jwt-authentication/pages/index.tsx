@@ -16,7 +16,7 @@ export default function Index() {
         JWT Authentication
       </Text>
       <Text className="mb-4">
-        With <i className="font-semibold">Vercel&apos;s Edge Middleware</i>{' '}
+        With <i className="font-semibold">Khulnasoft&apos;s Edge Middleware</i>{' '}
         we&apos;re able to authenticate users before they hit your app.
       </Text>
       <Text className="mb-4">

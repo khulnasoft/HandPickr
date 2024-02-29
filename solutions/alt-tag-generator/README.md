@@ -10,10 +10,10 @@ It uses an ML modal from Salesforce called [BLIP](https://github.com/salesforce/
 
 ## Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/alt-tag-generator
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/alt-tag-generator
 ```
 
 After cloning the repo, go to [Replicate](https://replicate.com/) to make an account and put your API key in a file called `.env.local`.
@@ -32,6 +32,6 @@ curl http://localhost:3000/api/generate?imageUrl=https://dub.sh/confpic
 
 ## One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/alt-tag-generator&env=REPLICATE_API_TOKEN&project-name=alt-tag-generation&repo-name=alt-tag-generation)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/alt-tag-generator&env=REPLICATE_API_TOKEN&project-name=alt-tag-generation&repo-name=alt-tag-generation)

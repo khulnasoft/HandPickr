@@ -20,7 +20,8 @@ const SignedOut = () => (
       . With Ory you can easily add authentication (email/username + password,
       passwordless, 2FA, WebAuthN, social sign in, ...), OAuth2 and OpenID
       Connect, scalable permission management, and zero trust networking to any
-      application. With Vercel and Next.js this only takes a few lines of code:
+      application. With Khulnasoft and Next.js this only takes a few lines of
+      code:
     </Text>
     <Text className="mb-4">
       <pre
@@ -61,7 +62,7 @@ export default createApiHandler({
       </a>
     </Text>
     <Text className="mb-6">
-      and Vercel&apos;s Edge Functions. To learn more about the integration,
+      and Khulnasoft&apos;s Edge Functions. To learn more about the integration,
       check one of the recommended guides:
     </Text>
   </>

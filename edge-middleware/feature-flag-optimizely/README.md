@@ -5,7 +5,7 @@ description: Learn how to use optimizely to conduct experiments at the edge.
 framework: Next.js
 useCase: Edge Middleware
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely
 demoUrl: https://feature-flag-optimizely.vercel.app
 relatedTemplates:
   - ab-testing-simple
@@ -27,14 +27,14 @@ You can choose from one of the following two methods to use this repository:
 
 **Note:** Before clicking `Deploy`, follow the section [Set up Optimizely](#set-up-optimizely) to create an account, set up feature flags and obtain the Optimizely _SDK Key_.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create-next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely feature-flag-optimizely
+pnpm create-next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely feature-flag-optimizely
 ```
 
 **Note:** Before running locally, follow the section [Set up Optimizely](#set-up-optimizely) to create an account, set up feature flags and obtain the Optimizely _SDK Key_.
@@ -51,7 +51,7 @@ Next, run Next.js in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
 
 # Optimizely Full Stack Feature Flags and Experimentation
 
@@ -59,7 +59,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 You can deploy code behind feature flags, experiment with A/B tests, and roll out or roll back features immediately. All of this functionality is available with minimal performance impact through easy-to-use, open source SDKs.
 
-You can use Optimizely feature flags at the edge with [NextJS](https://nextjs.org/) applications deployed on [Vercel](https://vercel.com/). This example uses Optimizely [Javascript SDK](https://docs.developers.optimizely.com/full-stack/v4.0/docs/javascript-node) inside a [Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware) as a starting point for you to implement experimentation and feature flagging for your experiences at the edge. For a guide to getting started with our platform more generally, this can be combined with the steps outlined in our [Javascript Quickstart](https://docs.developers.optimizely.com/full-stack/v4.0/docs/javascript-node).
+You can use Optimizely feature flags at the edge with [NextJS](https://nextjs.org/) applications deployed on [Khulnasoft](https://vercel.com/). This example uses Optimizely [Javascript SDK](https://docs.developers.optimizely.com/full-stack/v4.0/docs/javascript-node) inside a [Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware) as a starting point for you to implement experimentation and feature flagging for your experiences at the edge. For a guide to getting started with our platform more generally, this can be combined with the steps outlined in our [Javascript Quickstart](https://docs.developers.optimizely.com/full-stack/v4.0/docs/javascript-node).
 
 ### Identity Management
 
@@ -71,11 +71,11 @@ For more information on how Optimizely Full Stack SDKs assign users to feature f
 
 ## Auto update with Optimizely Webhooks
 
-This example fetches the latest datafile from the Optimizely CDN during every build. [Deploy Hooks](https://vercel.com/docs/concepts/git/deploy-hooks) from Vercel can be used with [Optimizely Webhooks](https://docs.developers.optimizely.com/full-stack/docs/configure-webhooks#section-2-create-a-webhook-in-optimizely) to keep the application up to date with the latest changes in the Optimizely project.
+This example fetches the latest datafile from the Optimizely CDN during every build. [Deploy Hooks](https://vercel.com/docs/concepts/git/deploy-hooks) from Khulnasoft can be used with [Optimizely Webhooks](https://docs.developers.optimizely.com/full-stack/docs/configure-webhooks#section-2-create-a-webhook-in-optimizely) to keep the application up to date with the latest changes in the Optimizely project.
 
-### Create a Deploy Hook in Vercel
+### Create a Deploy Hook in Khulnasoft
 
-1. Navigate to **Settings** tab in your Vercel deployment.
+1. Navigate to **Settings** tab in your Khulnasoft deployment.
 2. Look for the **Deploy Hooks** section and create a **Hook**.
 3. Generate a URL that can be used to trigger a rebuild of the deployment.
 
@@ -86,7 +86,7 @@ This example fetches the latest datafile from the Optimizely CDN during every bu
 
 ### How it works
 
-When a user makes a change to the Optimizely Project using the UI, the Webhook hits Vercel's `Deploy Hook` URL to trigger a new build on Vercel. Every new build fetches the latest version of the Optimizely datafile and uses it in the application.
+When a user makes a change to the Optimizely Project using the UI, the Webhook hits Khulnasoft's `Deploy Hook` URL to trigger a new build on Khulnasoft. Every new build fetches the latest version of the Optimizely datafile and uses it in the application.
 
 ## Set up Optimizely
 
@@ -99,7 +99,7 @@ You need an account to follow this example. If you do not have an account, you c
 1. Go to **Settings > Primary Environment**
 2. Copy and save the **SDK Key** for your primary environment. **Note:** Each environment has its own SDK key.
    ![Copy SDK Key](https://files.readme.io/e392205-sdk_key.png)
-3. Go back to the **Vercel** dashboard, click on your project and go to **Settings > Environment Variables**
+3. Go back to the **Khulnasoft** dashboard, click on your project and go to **Settings > Environment Variables**
 4. Create a new Environment Variable called `OPTIMIZELY_SDK_KEY`
 5. Paste your Optimizely SDK Key as its value and **Save**
 

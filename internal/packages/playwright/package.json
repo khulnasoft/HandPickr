@@ -1,7 +1,7 @@
 {
   "name": "@vercel/playwright",
   "version": "0.0.1",
-  "description": "PLaywright test for Vercel examples",
+  "description": "PLaywright test for Khulnasoft examples",
   "license": "MIT",
   "private": true,
   "scripts": {

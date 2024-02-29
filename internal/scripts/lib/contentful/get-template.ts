@@ -43,7 +43,7 @@ export default async function getTemplate(readme: string) {
     githubUrl: attributes.githubUrl,
     deployUrl: attributes.deployUrl,
     demoUrl: attributes.demoUrl,
-    publisher: attributes.publisher ?? '▲ Vercel',
+    publisher: attributes.publisher ?? '▲ Khulnasoft',
     overview: undefined,
     relatedTemplates: attributes.relatedTemplates?.map((slug) => {
       const template = relatedTemplates.find(

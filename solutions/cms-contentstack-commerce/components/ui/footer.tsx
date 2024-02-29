@@ -148,7 +148,7 @@ export const Footer = () => {
             <div className="flex flex-1 space-x-6 items-center h-10 justify-end">
               <a
                 aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
+                href="https://github.com/khulnasoft/commerce"
                 className="transform duration-75 ease-linear hover:scale-110"
               >
                 <Github />

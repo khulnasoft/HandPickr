@@ -5,13 +5,13 @@ import { Product } from './types'
 const PRODUCTS: Product[] = [
   {
     id: 'mug',
-    title: 'Vercel Mug',
+    title: 'Khulnasoft Mug',
     description: 'Limited edition',
     price: 15,
   },
   {
     id: 'hoodie',
-    title: 'Vercel Hoodie',
+    title: 'Khulnasoft Hoodie',
     description: 'Limited edition',
     price: 35,
   },

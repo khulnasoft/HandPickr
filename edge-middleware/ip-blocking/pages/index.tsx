@@ -23,7 +23,8 @@ function Index() {
           IP Blocking with Upstash
         </Text>
         <Text className="mb-4">
-          With <i className="font-semibold">Vercel&apos;s Edge Middleware</i>{' '}
+          With{' '}
+          <i className="font-semibold">Khulnasoft&apos;s Edge Middleware</i>{' '}
           we&apos;re able to execute functions at the edge level and act on
           mid-flight requests instantly. This example uses Upstash for API rate
           limiting and to add rules that allows us to block certain IPs.

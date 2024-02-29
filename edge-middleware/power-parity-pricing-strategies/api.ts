@@ -3,7 +3,7 @@ import type { Country, Product } from './types'
 
 const PRODUCT: Product = {
   id: 'mug-nextjs',
-  name: 'Vercel Mug',
+  name: 'Khulnasoft Mug',
   description: 'Limited Edition',
   price: 15,
   image: '/mug.png',
@@ -68,7 +68,7 @@ export const PRODUCTS: Record<string, Product> = {
   // Argentina
   ar: {
     ...PRODUCT,
-    name: 'Taza Vercel',
+    name: 'Taza Khulnasoft',
     description: 'Edición Limitada',
     discount: REGIONS['5'].discount,
     link: `${STORE_URL}/cart/${REGIONS['5'].id}:1`,
@@ -280,7 +280,7 @@ export const PRODUCTS: Record<string, Product> = {
   // China
   cn: {
     ...PRODUCT,
-    name: 'Vercel 马克杯',
+    name: 'Khulnasoft 马克杯',
     description: '限量版',
     discount: REGIONS['5'].discount,
     link: `${STORE_URL}/cart/${REGIONS['5'].id}:1`,
@@ -510,7 +510,7 @@ export const PRODUCTS: Record<string, Product> = {
   // Germany
   de: {
     ...PRODUCT,
-    name: 'Vercel Becher',
+    name: 'Khulnasoft Becher',
     description: 'Limitierte Auflage, beschränkte Auflage',
     discount: REGIONS['1'].discount,
     link: `${STORE_URL}/cart/${REGIONS['1'].id}:1`,
@@ -686,7 +686,7 @@ export const PRODUCTS: Record<string, Product> = {
   // Japan
   jp: {
     ...PRODUCT,
-    name: 'Vercel マグ',
+    name: 'Khulnasoft マグ',
     description: '限定版',
     discount: REGIONS['2'].discount,
     link: `${STORE_URL}/cart/${REGIONS['2'].id}:1`,

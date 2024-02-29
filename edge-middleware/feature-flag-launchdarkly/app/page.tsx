@@ -3,9 +3,9 @@ import { init } from '@launchdarkly/vercel-server-sdk'
 import { createClient } from '@vercel/edge-config'
 
 export const metadata = {
-  title: 'Vercel x LaunchDarkly example',
+  title: 'Khulnasoft x LaunchDarkly example',
   description:
-    'An example showing how to use LaunchDarkly and Vercel. This example builds on top of the LaunchDarkly integration which syncs LaunchDarkly flags into Edge Config, so you can read them from your application near-instantly.',
+    'An example showing how to use LaunchDarkly and Khulnasoft. This example builds on top of the LaunchDarkly integration which syncs LaunchDarkly flags into Edge Config, so you can read them from your application near-instantly.',
 }
 export const runtime = 'edge'
 

@@ -5,7 +5,7 @@ description: Compute and generate dynamic social card images with React componen
 framework: Next.js
 useCase: Edge Functions
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/vercel-og-nextjs&project-name=vercel-og-nextjs&repository-name=vercel-og-nextjs
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/vercel-og-nextjs&project-name=vercel-og-nextjs&repository-name=vercel-og-nextjs
 demoUrl: https://og-examples.vercel.sh/api/static
 relatedTemplates:
   - nextjs-boilerplate
@@ -14,14 +14,14 @@ relatedTemplates:
   - blog-starter-kit
 ---
 
-# Vercel OG + Next.js
+# Khulnasoft OG + Next.js
 
-This example shows how to use [Vercel OG](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation) with Next.js.
+This example shows how to use [Khulnasoft OG](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation) with Next.js.
 
 ## Demo
 
 - [Static Text](https://og-examples.vercel.sh/api/static)
-- [Vercel Card](https://og-examples.vercel.sh/api/vercel)
+- [Khulnasoft Card](https://og-examples.vercel.sh/api/vercel)
 - [Dynamic Text from URL Query](https://og-examples.vercel.sh/api/param)
 - [Embed SVG Image](https://og-examples.vercel.sh/api/image-svg)
 - [Dynamic PNG Image Based on URL Queries](https://og-examples.vercel.sh/api/dynamic-image?username=vercel)
@@ -36,16 +36,16 @@ You can choose from one of the following two methods to use this repository:
 
 ### One-Click Deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+Deploy the example using [Khulnasoft](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/vercel-og-nextjs&project-name=vercel-og-nextjs&repository-name=vercel-og-nextjs)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/vercel-og-nextjs&project-name=vercel-og-nextjs&repository-name=vercel-og-nextjs)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-functions/vercel-og-nextjs
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-functions/vercel-og-nextjs
 ```
 
 Next, run Next.js in development mode:
@@ -54,4 +54,4 @@ Next, run Next.js in development mode:
 pnpm dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).

@@ -19,5 +19,5 @@
 ### New Example Checklist
 
 - [ ] 🛫 `npm run new-example` was used to create the example
-- [ ] 📚 The template wasn't used but I carefuly read the [Adding a new example](https://github.com/vercel/examples#adding-a-new-example) steps and implemented them in the example
+- [ ] 📚 The template wasn't used but I carefuly read the [Adding a new example](https://github.com/khulnasoft/examples#adding-a-new-example) steps and implemented them in the example
 - [ ] 📱 Is it responsive? Are mobile and tablets considered?

@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       product: {
         id: 'mug-nextjs',
-        title: 'Vercel Mug',
+        title: 'Khulnasoft Mug',
         description: 'Limited Edition',
         image: '/mug.png',
         price: 150,

@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-const DATADOME_TIMEOUT = parseInt(process.env.DATADOME_TIMEOUT ?? "300")
+const DATADOME_TIMEOUT = parseInt(process.env.DATADOME_TIMEOUT ?? '300')
 const DATADOME_ENDPOINT = validateEndpoint()
-const DATADOME_URI_REGEX_EXCLUSION = 
+const DATADOME_URI_REGEX_EXCLUSION =
   /\.(avi|flv|mka|mkv|mov|mp4|mpeg|mpg|mp3|flac|ogg|ogm|opus|wav|webm|webp|bmp|gif|ico|jpeg|jpg|png|svg|svgz|swf|eot|otf|ttf|woff|woff2|css|less|js|map)$/i
 
 export default async function datadome(req: NextRequest) {
@@ -72,7 +72,7 @@ export default async function datadome(req: NextRequest) {
     body: stringify(truncateRequestData(requestData)),
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'DataDome'
+      'User-Agent': 'DataDome',
     },
   }
   if (req.headers.get('x-datadome-clientid')?.length) {
@@ -109,7 +109,11 @@ export default async function datadome(req: NextRequest) {
   switch (dataDomeRes.status) {
     case 400:
       // Something is wrong with our authentication
-      console.log('DataDome returned 400', dataDomeRes.statusText, await dataDomeRes.text())
+      console.log(
+        'DataDome returned 400',
+        dataDomeRes.statusText,
+        await dataDomeRes.text()
+      )
       return
 
     case 200:
@@ -123,7 +127,9 @@ export default async function datadome(req: NextRequest) {
 
       if (dataDomeRes.status !== 200) {
         // blocked!
-        res = new Response(dataDomeRes.body, {status: dataDomeRes.status}) as NextResponse
+        res = new Response(dataDomeRes.body, {
+          status: dataDomeRes.status,
+        }) as NextResponse
         const isBot = dataDomeRes.headers.get('x-datadome-isbot')
         if (isBot) {
           console.log(
@@ -220,7 +226,9 @@ function stringify(obj: Record<string, string | number | null | undefined>) {
         .join('&')
     : ''
 }
-function truncateRequestData(requestData: Record<string, string | number | null | undefined>) {
+function truncateRequestData(
+  requestData: Record<string, string | number | null | undefined>
+) {
   const limits = {
     secfetchuser: 8,
     secchdevicememory: 8,
@@ -235,7 +243,7 @@ function truncateRequestData(requestData: Record<string, string | number | null 
     tlscipher: 64,
     clientid: 128,
     from: 128,
-    "x-requested-with": 128,
+    'x-requested-with': 128,
     acceptcharset: 128,
     acceptencoding: 128,
     connection: 128,
@@ -257,20 +265,25 @@ function truncateRequestData(requestData: Record<string, string | number | null 
     useragent: 768,
     referer: 1024,
     request: 2048,
-  };
+  }
 
   for (let key in requestData) {
-    const value = requestData[key];
-    const limit = limits[key.toLowerCase()];
-    if (limit && value && typeof value == 'string' && value.length > Math.abs(limit)) {
+    const value = requestData[key]
+    const limit = limits[key.toLowerCase()]
+    if (
+      limit &&
+      value &&
+      typeof value == 'string' &&
+      value.length > Math.abs(limit)
+    ) {
       if (limit > 0) {
-        requestData[key] = value.substring(0, limit);
+        requestData[key] = value.substring(0, limit)
       } else {
-        requestData[key] = value.slice(limit);
+        requestData[key] = value.slice(limit)
       }
     }
   }
-  return requestData;
+  return requestData
 }
 
 /**
@@ -284,7 +297,7 @@ function getCookieData(cookies: NextRequest['cookies']) {
       return cookie.value
     }
   }
-  return '';
+  return ''
 }
 
 /**
@@ -293,8 +306,8 @@ function getCookieData(cookies: NextRequest['cookies']) {
  */
 function validateEndpoint() {
   let endpoint = process.env.DATADOME_ENDPOINT ?? 'https://api.datadome.co'
-  if (!(/https?:\/\//i).test(endpoint)) {
-    endpoint = "https://" + endpoint
+  if (!/https?:\/\//i.test(endpoint)) {
+    endpoint = 'https://' + endpoint
   }
   return endpoint
 }

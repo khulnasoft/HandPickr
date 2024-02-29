@@ -3,7 +3,7 @@ name: AWS DynamoDB with Next.js API Routes
 slug: aws-dynamodb-nextjs-api-routes
 description: Learn to use AWS DynamoDB with Next.js API Routes.
 framework: Next.js
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/aws-dynamodb&project-name=aws-dynamodb&repository-name=aws-dynamodb&env=AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION,TABLE_NAME&envDescription=AWS%20DynamoDB%20information%20and%20keys
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/aws-dynamodb&project-name=aws-dynamodb&repository-name=aws-dynamodb&env=AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION,TABLE_NAME&envDescription=AWS%20DynamoDB%20information%20and%20keys
 ---
 
 # Next.js + AWS DynamoDB
@@ -20,14 +20,14 @@ https://alt-text-generator.vercel.app/
 
 Retrieve your existing access key, secret key, region and table name. Provide those values after clicking "Deploy" to automatically set the environment variables.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/aws-dynamodb&project-name=aws-dynamodb&repository-name=aws-dynamodb&env=AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION,TABLE_NAME&envDescription=AWS%20DynamoDB%20information%20and%20keys)
+[![Deploy with Khulnasoft](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/aws-dynamodb&project-name=aws-dynamodb&repository-name=aws-dynamodb&env=AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_REGION,TABLE_NAME&envDescription=AWS%20DynamoDB%20information%20and%20keys)
 
 **Option 2: Create a new table.**
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/aws-dynamodb
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/aws-dynamodb
 ```
 
 1. Create a new [IAM role](https://aws.amazon.com/iam/) with permission for `AmazonDynamoDBFullAccess`
@@ -38,11 +38,11 @@ pnpm create next-app --example https://github.com/vercel/examples/tree/main/solu
 1. Add the access key, secret key, region, and table name to `.env.local`.
 1. Run `pnpm dev` to start the Next app at http://localhost:3000.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Khulnasoft](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=edge-middleware-eap) ([Documentation](https://nextjs.org/docs/deployment)).
 
 ## Credentials and Environment Variables
 
-AWS credentials (e.g. `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`) and region configuration (e.g. `AWS_REGION`) can now be used directly as environment variables for Vercel deployments.
+AWS credentials (e.g. `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`) and region configuration (e.g. `AWS_REGION`) can now be used directly as environment variables for Khulnasoft deployments.
 
 These variables are the default names expected by the AWS SDK, which means the user no longer has to configure credentials when using it. For example, this code is no longer necessary:
 

@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://vercel.com">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
-    <h3 align="center">Vercel Examples</h3>
+    <h3 align="center">Khulnasoft Examples</h3>
   </a>
 </p>
 
@@ -13,11 +13,11 @@ We're going to be shipping new examples weekly. Stay tuned!
 - [Solutions](/solutions) – Demos, Architectures, and Best Practices
 - [Starter](/starter) – Fully functional applications that encompass an idea as a robust starting point.
 
-## Vercel Templates
+## Khulnasoft Templates
 
-Multiple examples are being featured in [Vercel's Templates](https://vercel.com/templates), visit that page for more advanced filtering options.
+Multiple examples are being featured in [Khulnasoft's Templates](https://vercel.com/templates), visit that page for more advanced filtering options.
 
-### For Vercelians
+### For Khulnasoftians
 
 Examples that have front matter metadata will create a new Draft template in [Contentful](https://app.contentful.com), for more steps on how to publish a template, read [Publishing Templates](./internal/publishing-templates.md).
 
@@ -34,8 +34,8 @@ If the script above isn't used, make sure the example complies with the followin
 
 - It must have a `.gitignore` similar to [plop-templates/example/.gitignore](./plop-templates/example/.gitignore)
 - It must have a `package.json` similar to [plop-templates/example/package.json](./plop-templates/example/package.json) (usage of Next.js is optional). The license should be `MIT`
-- It must have a `README.md` similar to [plop-templates/example/README.md](./plop-templates/example/README.md). The example has to be able to include a demo URL (the Vercel team will deploy it!) and if it requires environment variables, it must have a `.env.example` file and instructions on how to set them up. Take [bot-protection-datadome](./edge-middleware/bot-protection-datadome/README.md) as an example.
-  - To customize the Vercel Deploy Button take a look at the [docs](https://vercel.com/docs/deploy-button), useful if the deployment has required environment variables.
+- It must have a `README.md` similar to [plop-templates/example/README.md](./plop-templates/example/README.md). The example has to be able to include a demo URL (the Khulnasoft team will deploy it!) and if it requires environment variables, it must have a `.env.example` file and instructions on how to set them up. Take [bot-protection-datadome](./edge-middleware/bot-protection-datadome/README.md) as an example.
+  - To customize the Khulnasoft Deploy Button take a look at the [docs](https://vercel.com/docs/deploy-button), useful if the deployment has required environment variables.
 - If using Next.js, it must have a `.eslintrc.json` similar to [plop-templates/example/.eslintrc.json](./plop-templates/example/.eslintrc.json)
 - All Next.js examples should be using the same styling and layout provided by `@vercel/examples-ui`, its usage can be seen in the [plop template](./plop-templates/example)
 
@@ -57,12 +57,12 @@ Code changes automatically go through Prettier and ESLint when you make a commit
 
 ## Read the Docs
 
-- [Vercel Docs](https://vercel.com/docs)
+- [Khulnasoft Docs](https://vercel.com/docs)
 - [Next.js Docs](https://nextjs.org/docs)
 
-If you have any questions or suggestions about the docs, feel free to [open a discussion](https://github.com/vercel/examples/discussions), or [submit a PR](https://github.com/vercel/examples/pulls) with your suggestions!
+If you have any questions or suggestions about the docs, feel free to [open a discussion](https://github.com/khulnasoft/examples/discussions), or [submit a PR](https://github.com/khulnasoft/examples/pulls) with your suggestions!
 
 ## Provide Feedback
 
-- [Start a Discussion](https://github.com/vercel/examples/discussions) with a question, piece of feedback, or idea you want to share with the team.
-- [Open an Issue](https://github.com/vercel/examples/issues) if you believe you've encountered a bug that you want to flag for the team.
+- [Start a Discussion](https://github.com/khulnasoft/examples/discussions) with a question, piece of feedback, or idea you want to share with the team.
+- [Open an Issue](https://github.com/khulnasoft/examples/issues) if you believe you've encountered a bug that you want to flag for the team.

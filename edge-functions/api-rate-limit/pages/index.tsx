@@ -5,11 +5,11 @@ export default function Index() {
   return (
     <Page>
       <Text variant="h2" className="mb-6">
-        API Rate Limiting with Vercel KV
+        API Rate Limiting with Khulnasoft KV
       </Text>
       <Text className="mb-4">
-        By using Redis with Vercel KV, we can keep a counter of requests by IP
-        address.
+        By using Redis with Khulnasoft KV, we can keep a counter of requests by
+        IP address.
       </Text>
       <Text className="mb-4">
         For the demo below, you can send a maximum of{' '}

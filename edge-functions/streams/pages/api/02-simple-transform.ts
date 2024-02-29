@@ -13,7 +13,7 @@ export default async function handler(_: NextRequest) {
   const readable = new ReadableStream({
     start(controller) {
       controller.enqueue(
-        encoder.encode('Vercel Edge Functions + Streams + Transforms')
+        encoder.encode('Khulnasoft Edge Functions + Streams + Transforms')
       )
       controller.close()
     },
@@ -26,7 +26,7 @@ export default async function handler(_: NextRequest) {
     start(controller) {
       controller.enqueue(
         encoder.encode(
-          '<html><head><title>Vercel Edge Functions + Streams + Transforms</title></head><body>'
+          '<html><head><title>Khulnasoft Edge Functions + Streams + Transforms</title></head><body>'
         )
       )
     },
