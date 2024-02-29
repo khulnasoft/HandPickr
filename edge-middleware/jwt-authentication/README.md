@@ -38,10 +38,10 @@ After [setting up your JWT secret](#set-up-environment-variables), deploy the ex
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/jwt-authentication
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/jwt-authentication
 ```
 
 #### Set up environment variables

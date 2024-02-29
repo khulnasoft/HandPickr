@@ -13,7 +13,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       title="Bot Protection with DataDome"
       path="edge-middleware/bot-protection-datadome"
       deployButton={{
-        env: ['NEXT_PUBLIC_DATADOME_CLIENT_SIDE_KEY', 'DATADOME_SERVER_SIDE_KEY'],
+        env: [
+          'NEXT_PUBLIC_DATADOME_CLIENT_SIDE_KEY',
+          'DATADOME_SERVER_SIDE_KEY',
+        ],
       }}
     >
       <Component {...pageProps} />

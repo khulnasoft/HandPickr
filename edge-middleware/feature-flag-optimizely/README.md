@@ -5,7 +5,7 @@ description: Learn how to use optimizely to conduct experiments at the edge.
 framework: Next.js
 useCase: Edge Middleware
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely
 demoUrl: https://feature-flag-optimizely.vercel.app
 relatedTemplates:
   - ab-testing-simple
@@ -27,14 +27,14 @@ You can choose from one of the following two methods to use this repository:
 
 **Note:** Before clicking `Deploy`, follow the section [Set up Optimizely](#set-up-optimizely) to create an account, set up feature flags and obtain the Optimizely _SDK Key_.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely&env=OPTIMIZELY_SDK_KEY&project-name=feature-flag-optimizely&repository-name=feature-flag-optimizely)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create-next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-optimizely feature-flag-optimizely
+pnpm create-next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-optimizely feature-flag-optimizely
 ```
 
 **Note:** Before running locally, follow the section [Set up Optimizely](#set-up-optimizely) to create an account, set up feature flags and obtain the Optimizely _SDK Key_.

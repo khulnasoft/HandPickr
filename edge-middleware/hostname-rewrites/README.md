@@ -7,7 +7,7 @@ useCase:
   - Edge Middleware
   - Documentation
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites
 demoUrl: https://custom-domain-1.com
 relatedTemplates:
   - edge-rewrites-upstash
@@ -49,7 +49,7 @@ To give a bit of context of how this can be applied in a real-world context, we 
 For more info on the Platforms Starter Kit:
 
 - [Twitter Announcement](https://twitter.com/vercel/status/1484237805941403655)
-- [Github Repo](https://github.com/vercel/platforms)
+- [Github Repo](https://github.com/khulnasoft/platforms)
 - [Official Guide](https://vercel.com/guides/nextjs-multi-tenant-application)
 
 ## How to Use
@@ -60,14 +60,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/hostname-rewrites&project-name=hostname-rewrites&repository-name=hostname-rewrites)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/hostname-rewrites hostname-rewrites
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/hostname-rewrites hostname-rewrites
 ```
 
 [`.env`](.env) has the following defaults:

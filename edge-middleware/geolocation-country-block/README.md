@@ -28,14 +28,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/geolocation-country-block&project-name=geolocation-country-block&repository-name=geolocation-country-block)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/geolocation-country-block&project-name=geolocation-country-block&repository-name=geolocation-country-block)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/geolocation-country-block geolocation-country-block
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/geolocation-country-block geolocation-country-block
 ```
 
 Next, run Next.js in development mode:

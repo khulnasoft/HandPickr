@@ -6,7 +6,7 @@ framework: Next.js
 useCase:
   - Starter
 css: CSS Modules
-deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload
+deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload
 demoUrl: https://nextjs-vercel.payloadcms.com
 relatedTemplates:
   - blog-starter-kit
@@ -26,11 +26,11 @@ https://cms-payload.vercel.app
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/starter/cms-payload&project-name=cms-payload&repository-name=cms-payload)
 
 ## Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
 npx create-next-app --example cms-payload cms-payload-app

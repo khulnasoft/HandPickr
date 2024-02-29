@@ -149,7 +149,7 @@
       <img src="/vercel.svg" alt="Vercel Logo" width={100} height={24} />
     </a>
     <a
-      href="https://github.com/vercel/examples/tree/main/storage/blob-sveltekit"
+      href="https://github.com/khulnasoft/examples/tree/main/storage/blob-sveltekit"
       class="flex items-center space-x-2"
     >
       <img src="/github.svg" alt="GitHub Logo" width={24} height={24} />

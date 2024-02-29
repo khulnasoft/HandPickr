@@ -60,9 +60,9 @@ Code changes automatically go through Prettier and ESLint when you make a commit
 - [Vercel Docs](https://vercel.com/docs)
 - [Next.js Docs](https://nextjs.org/docs)
 
-If you have any questions or suggestions about the docs, feel free to [open a discussion](https://github.com/vercel/examples/discussions), or [submit a PR](https://github.com/vercel/examples/pulls) with your suggestions!
+If you have any questions or suggestions about the docs, feel free to [open a discussion](https://github.com/khulnasoft/examples/discussions), or [submit a PR](https://github.com/khulnasoft/examples/pulls) with your suggestions!
 
 ## Provide Feedback
 
-- [Start a Discussion](https://github.com/vercel/examples/discussions) with a question, piece of feedback, or idea you want to share with the team.
-- [Open an Issue](https://github.com/vercel/examples/issues) if you believe you've encountered a bug that you want to flag for the team.
+- [Start a Discussion](https://github.com/khulnasoft/examples/discussions) with a question, piece of feedback, or idea you want to share with the team.
+- [Open an Issue](https://github.com/khulnasoft/examples/issues) if you believe you've encountered a bug that you want to flag for the team.

@@ -1,6 +1,6 @@
 {
   "name": "feature-flag-launchdarkly",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/khulnasoft/examples.git",
   "license": "MIT",
   "private": true,
   "scripts": {

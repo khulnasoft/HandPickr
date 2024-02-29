@@ -5,7 +5,7 @@ description: Cache control for the edge.
 framework: None
 useCase: Edge Function
 css: None
-deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/cache-control&project-name=edge-cache-control&repository-name=edge-cache-control
+deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/cache-control&project-name=edge-cache-control&repository-name=edge-cache-control
 demoUrl: https://edge-api-routes-cache-control.vercel.app/api/edge
 relatedTemplates:
   - ab-testing-simple
@@ -28,7 +28,7 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/cache-control&project-name=edge-cache-control&repository-name=edge-cache-control)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/cache-control&project-name=edge-cache-control&repository-name=edge-cache-control)
 
 ### Running Locally
 

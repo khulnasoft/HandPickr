@@ -17,7 +17,7 @@ This is a hybrid Next.js + Python app that uses Next.js as the frontend and Flas
 
 The Python/Flask server is mapped into to Next.js app under `/api/`.
 
-This is implemented using [`next.config.js` rewrites](https://github.com/vercel/examples/blob/main/python/nextjs-flask/next.config.js) to map any request to `/api/:path*` to the Flask API, which is hosted in the `/api` folder.
+This is implemented using [`next.config.js` rewrites](https://github.com/khulnasoft/examples/blob/main/python/nextjs-flask/next.config.js) to map any request to `/api/:path*` to the Flask API, which is hosted in the `/api` folder.
 
 On localhost, the rewrite will be made to the `127.0.0.1:5328` port, which is where the Flask server is running.
 
@@ -38,7 +38,7 @@ You can clone & deploy it to Vercel with one click:
 You can clone & create this repo with the following command
 
 ```bash
-npx create-next-app nextjs-flask --example "https://github.com/vercel/examples/tree/main/python/nextjs-flask"
+npx create-next-app nextjs-flask --example "https://github.com/khulnasoft/examples/tree/main/python/nextjs-flask"
 ```
 
 ## Getting Started
@@ -75,4 +75,4 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/) - learn about Flask features and API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/khulnasoft/next.js/) - your feedback and contributions are welcome!

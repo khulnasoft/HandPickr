@@ -5,7 +5,7 @@ description: Using query parameters on the edge.
 framework: None
 useCase: Edge Function
 css: None
-deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/query-parameters&project-name=edge-query-parameters&repository-name=edge-query-parameters
+deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/query-parameters&project-name=edge-query-parameters&repository-name=edge-query-parameters
 demoUrl: https://edge-api-routes-query-parameters.vercel.app/api/edge?email=test@test.com
 relatedTemplates:
   - edge-hello-world
@@ -28,7 +28,7 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/query-parameters&project-name=edge-query-parameters&repository-name=edge-query-parameters)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/query-parameters&project-name=edge-query-parameters&repository-name=edge-query-parameters)
 
 ### Running Locally
 

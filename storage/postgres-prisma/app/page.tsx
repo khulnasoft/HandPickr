@@ -79,7 +79,7 @@ export default function Home() {
           />
         </Link>
         <Link
-          href="https://github.com/vercel/examples/tree/main/storage/postgres-prisma"
+          href="https://github.com/khulnasoft/examples/tree/main/storage/postgres-prisma"
           className="flex items-center space-x-2"
         >
           <Image

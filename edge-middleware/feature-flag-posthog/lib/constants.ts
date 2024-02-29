@@ -24,4 +24,4 @@ export const FLAGS = {
   NEW_PRODUCT_PAGE: 'New_Product_Page',
 } as const
 
-export type Flags = typeof FLAGS[keyof typeof FLAGS]
+export type Flags = (typeof FLAGS)[keyof typeof FLAGS]

@@ -87,7 +87,7 @@ export default function Home() {
           />
         </Link>
         <Link
-          href="https://github.com/vercel/examples/tree/main/storage/postgres-pgvector"
+          href="https://github.com/khulnasoft/examples/tree/main/storage/postgres-pgvector"
           className="lg:absolute bottom-12 right-12 flex items-center space-x-2"
         >
           <Image

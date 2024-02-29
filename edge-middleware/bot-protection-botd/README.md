@@ -5,7 +5,7 @@ description: Botd is a browser library for bot detection. In this template we'll
 framework: Next.js
 useCase: Edge Middleware
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/bot-protection-botd&env=NEXT_PUBLIC_BOTD_API_TOKEN&project-name=bot-protection-botd&repository-name=bot-protection-botd
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/bot-protection-botd&env=NEXT_PUBLIC_BOTD_API_TOKEN&project-name=bot-protection-botd&repository-name=bot-protection-botd
 demoUrl: https://edge-functions-bot-protection-botd.vercel.app
 relatedTemplates:
   - bot-protection-datadome
@@ -29,14 +29,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/bot-protection-botd&env=NEXT_PUBLIC_BOTD_API_TOKEN&project-name=bot-protection-botd&repository-name=bot-protection-botd)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/bot-protection-botd&env=NEXT_PUBLIC_BOTD_API_TOKEN&project-name=bot-protection-botd&repository-name=bot-protection-botd)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/bot-protection-botd bot-protection-botd
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/bot-protection-botd bot-protection-botd
 ```
 
 You'll need to have a token for the beta access of [Botd](https://github.com/fingerprintjs/botd), the token is free and there are instructions in their [github repo](https://github.com/fingerprintjs/botd) on how to get one.

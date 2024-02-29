@@ -53,7 +53,7 @@
       />
     </a>
     <a
-      href="https://github.com/vercel/examples/tree/main/storage/postgres-sveltekit"
+      href="https://github.com/khulnasoft/examples/tree/main/storage/postgres-sveltekit"
       class="flex items-center h-8 mt-auto space-x-2 bottom-20 right-20"
     >
       <img src="/github.svg" alt="GitHub Logo" class="h-6 dark:invert" />

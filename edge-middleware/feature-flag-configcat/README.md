@@ -5,7 +5,7 @@ description: ConfigCat is a service for feature flag and configuration managemen
 framework: Next.js
 useCase: Edge Middleware
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY&project-name=feature-flag-configcat&repository-name=feature-flag-configcat
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY&project-name=feature-flag-configcat&repository-name=feature-flag-configcat
 demoUrl: https://edge-functions-feature-flag-configcat.vercel.app
 relatedTemplates:
   - ab-testing-simple
@@ -29,14 +29,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY,FEATURE_FLAG_ABOUT_PAGE,FEATURE_FLAG_MARKETING_PAGE&project-name=feature-flag-configcat&repository-name=feature-flag-configcat)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-configcat&env=NEXT_PUBLIC_CONFIGCAT_SDK_KEY,FEATURE_FLAG_ABOUT_PAGE,FEATURE_FLAG_MARKETING_PAGE&project-name=feature-flag-configcat&repository-name=feature-flag-configcat)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/feature-flag-configcat feature-flag-configcat
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/feature-flag-configcat feature-flag-configcat
 ```
 
 You'll need to have an account with [ConfigCat](https://app.configcat.com/signup). Once that's done, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git):

@@ -5,7 +5,7 @@ description: Build a blogging platform based on Slate.js, Supabase and Vercel.
 framework: Next.js
 useCase: Documentation
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/platforms-slate-supabase&project-name=platforms-slate-supabase&repo-name=platforms-slate-supabase&env=NEXTAUTH_URL,SECRET,AUTH_BEARER_TOKEN,PROJECT_ID_VERCEL,TEAM_ID_VERCEL,SUPABASE_URL,SUPABASE_ANON_KEY,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/platforms-slate-supabase&project-name=platforms-slate-supabase&repo-name=platforms-slate-supabase&env=NEXTAUTH_URL,SECRET,AUTH_BEARER_TOKEN,PROJECT_ID_VERCEL,TEAM_ID_VERCEL,SUPABASE_URL,SUPABASE_ANON_KEY,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET
 demoUrl: https://app.vercel.im
 relatedTemplates:
   - domains-api
@@ -48,5 +48,5 @@ This working demo site was built using the Platforms Starter Kit and:
 
 ## Contributing
 
-- [Start a discussion](https://github.com/vercel/platforms/discussions) with a question, piece of feedback, or idea you want to share with the team.
-- [Open an issue](https://github.com/vercel/platforms/issues) if you believe you've encountered a bug with the starter kit.
+- [Start a discussion](https://github.com/khulnasoft/platforms/discussions) with a question, piece of feedback, or idea you want to share with the team.
+- [Open an issue](https://github.com/khulnasoft/platforms/issues) if you believe you've encountered a bug with the starter kit.

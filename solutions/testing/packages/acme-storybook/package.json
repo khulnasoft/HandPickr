@@ -1,7 +1,7 @@
 {
   "name": "acme-storybook",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/khulnasoft/examples.git",
   "license": "MIT",
   "private": true,
   "scripts": {

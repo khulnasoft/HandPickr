@@ -4,22 +4,22 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home(props) {
-  const [data, setData] = useState(null);
-  const [isLoading, setLoading] = useState(false);
+  const [data, setData] = useState(null)
+  const [isLoading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
     fetch('/api/location')
       .then((res) => res.json())
       .then((data) => {
-        setData(data);
+        setData(data)
       })
       .finally(() => {
-        setLoading(false);
-      });
-  }, []);
+        setLoading(false)
+      })
+  }, [])
 
-  const greeting = isLoading || !data ? '' : `Hello, ${data.location}!`;
+  const greeting = isLoading || !data ? '' : `Hello, ${data.location}!`
 
   return (
     <div className={styles.container}>
@@ -30,9 +30,7 @@ export default function Home(props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          {greeting}
-        </h1>
+        <h1 className={styles.title}>{greeting}</h1>
       </main>
 
       <footer className={styles.footer}>
@@ -48,5 +46,5 @@ export default function Home(props) {
         </a>
       </footer>
     </div>
-  );
+  )
 }

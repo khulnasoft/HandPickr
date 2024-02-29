@@ -5,7 +5,7 @@ description: Smart contracts contain relevant information to applications built 
 framework: Next.js
 useCase: Documentation
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/web3-data-fetching&project-name=web3-data-fetching&repository-name=web3-data-fetching
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/web3-data-fetching&project-name=web3-data-fetching&repository-name=web3-data-fetching
 demoUrl: https://web3-data-fetching.vercel.app/
 ---
 
@@ -31,14 +31,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/web3-data-fetching&project-name=web3-data-fetching&repository-name=web3-data-fetching)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/web3-data-fetching&project-name=web3-data-fetching&repository-name=web3-data-fetching)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/web3-data-fetching
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/web3-data-fetching
 ```
 
 Next, run Next.js in development mode:

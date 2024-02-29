@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/khulnasoft/examples.git",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",

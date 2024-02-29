@@ -5,7 +5,7 @@ description: This template shows how to redirect users based on i18n configurati
 framework: Next.js
 useCase: Edge Middleware
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/i18n&project-name=i18n&repository-name=i18n
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/i18n&project-name=i18n&repository-name=i18n
 demoUrl: https://edge-functions-i18n.vercel.app
 relatedTemplates:
   - ab-testing-simple
@@ -27,14 +27,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/i18n&project-name=i18n&repository-name=i18n)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/i18n&project-name=i18n&repository-name=i18n)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/i18n i18n
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/i18n i18n
 ```
 
 Next, run Next.js in development mode:

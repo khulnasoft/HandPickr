@@ -36,7 +36,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 Execute the following command to download the example into the `my-project` folder:
 
 ```bash
-npx degit@latest https://github.com/vercel/examples/storage/blob-sveltekit my-project
+npx degit@latest https://github.com/khulnasoft/examples/storage/blob-sveltekit my-project
 ```
 
 Once you've created the project and installed dependencies with `pnpm install`, copy the `.env.example` file in this directory to `.env.local` (which will be ignored by Git). Then open `.env.local` and set the environment variables to match the ones in your Vercel Storage Dashboard.

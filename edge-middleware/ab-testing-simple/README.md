@@ -7,7 +7,7 @@ useCase:
   - Edge Middleware
   - Documentation
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/ab-testing-simple&project-name=ab-testing-simple&repository-name=ab-testing-simple
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/ab-testing-simple&project-name=ab-testing-simple&repository-name=ab-testing-simple
 demoUrl: https://edge-functions-ab-testing-simple.vercel.app
 relatedTemplates:
   - ab-testing-google-optimize
@@ -34,14 +34,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/edge-middleware/ab-testing-simple&project-name=ab-testing-simple&repository-name=ab-testing-simple)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-middleware/ab-testing-simple&project-name=ab-testing-simple&repository-name=ab-testing-simple)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/edge-middleware/ab-testing-simple ab-testing-simple
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-middleware/ab-testing-simple ab-testing-simple
 ```
 
 Next, run Next.js in development mode:

@@ -5,7 +5,7 @@ description: Microfrontends allow teams to work independently of each other by s
 framework: Next.js
 useCase: Monorepos
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore
 demoUrl: https://solutions-microfrontends.vercel.app
 relatedTemplates:
   - monorepo-turborepo
@@ -31,14 +31,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends&project-name=microfrontends&repository-name=microfrontends&root-directory=apps/main&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%3Amain&ignore-command=npx%20turbo-ignore)
 
 ### Clone and deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/microfrontends microfrontends
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/microfrontends microfrontends
 ```
 
 Next, run the included Next.js apps in development mode:

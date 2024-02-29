@@ -5,7 +5,7 @@ description: Learn to use ContentStack SDK to create apps with Next.js and Verce
 framework: Next.js
 useCase: Documentation
 css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/cms-contentstack-commerce&project-name=cms-contentstack-commerce&repository-name=cms-contentstack-commerce&env=CONTENTSTACK_API_KEY,CONTENTSTACK_ACCESS_TOKEN,CONTENTSTACK_ENV
+deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/cms-contentstack-commerce&project-name=cms-contentstack-commerce&repository-name=cms-contentstack-commerce&env=CONTENTSTACK_API_KEY,CONTENTSTACK_ACCESS_TOKEN,CONTENTSTACK_ENV
 demoUrl: https://solutions-cms-contentstack-commerce.vercel.app
 ---
 
@@ -25,14 +25,14 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/cms-contentstack-commerce&project-name=cms-contentstack-commerce&repository-name=cms-contentstack-commerce&env=CONTENTSTACK_API_KEY,CONTENTSTACK_ACCESS_TOKEN,CONTENTSTACK_ENV)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khulnasoft/examples/tree/main/solutions/cms-contentstack-commerce&project-name=cms-contentstack-commerce&repository-name=cms-contentstack-commerce&env=CONTENTSTACK_API_KEY,CONTENTSTACK_ACCESS_TOKEN,CONTENTSTACK_ENV)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/cms-contentstack-commerce cms-contentstack-commerce
+pnpm create next-app --example https://github.com/khulnasoft/examples/tree/main/solutions/cms-contentstack-commerce cms-contentstack-commerce
 ```
 
 Copy the `.env.example` file in this directory to `.env.local` and set your Contentstack settings

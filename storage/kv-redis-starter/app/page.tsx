@@ -76,7 +76,7 @@ export default function Home() {
           />
         </Link>
         <Link
-          href="https://github.com/vercel/examples/tree/main/storage/kv-redis-starter"
+          href="https://github.com/khulnasoft/examples/tree/main/storage/kv-redis-starter"
           className="flex items-center space-x-2"
         >
           <Image

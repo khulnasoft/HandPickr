@@ -5,7 +5,7 @@ description: Perform XOR bitwise operations in your API with Rust and WebAssembl
 framework: None
 useCase: Edge Function
 css: None
-deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/wasm-rust-xor&project-name=edge-wasm-rust-xor&repository-name=edge-wasm-rust-xor
+deployUrl: https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-xor&project-name=edge-wasm-rust-xor&repository-name=edge-wasm-rust-xor
 demoUrl: https://wasm-rust-xor.vercel.app/api/xor?a=0xac38b505&b=0x83ba94e4
 relatedTemplates:
   - edge-hello-world
@@ -30,16 +30,16 @@ You can choose from one of the following two methods to use this repository:
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/edge-functions/wasm-rust-xor&project-name=edge-wasm-rust-xor&repository-name=edge-wasm-rust-xor)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-xor&project-name=edge-wasm-rust-xor&repository-name=edge-wasm-rust-xor)
 
 ### Clone and Deploy
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/main/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/main/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-npx create-next-app --example https://github.com/vercel/examples/tree/main/edge-functions/wasm-rust-xor edge-wasm-rust-xor
+npx create-next-app --example https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-xor edge-wasm-rust-xor
 # or
-yarn create next-app --example https://github.com/vercel/examples/tree/main/edge-functions/wasm-rust-xor edge-wasm-rust-xor
+yarn create next-app --example https://github.com/khulnasoft/examples/tree/main/edge-functions/wasm-rust-xor edge-wasm-rust-xor
 ```
 
 To build and run the example locally, you'll need to install the following prerequisites:

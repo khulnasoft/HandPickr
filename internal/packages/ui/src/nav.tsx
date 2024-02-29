@@ -2,7 +2,7 @@ import { Link } from './link.js'
 import { Button } from './button.js'
 import { DeployButton, type DeployButtonProps } from './deploy-button.js'
 
-const REPO_URL = 'https://github.com/vercel/examples/tree/main'
+const REPO_URL = 'https://github.com/khulnasoft/examples/tree/main'
 
 export interface NavProps {
   path: string
@@ -61,7 +61,7 @@ export const Nav = ({ path, deployButton }: NavProps) => {
               <Button
                 variant="ghost"
                 Component="a"
-                href="https://github.com/vercel/examples/tree/main"
+                href="https://github.com/khulnasoft/examples/tree/main"
                 target="_blank"
                 rel="noreferrer"
               >
