@@ -6,7 +6,7 @@ export default async (req: Request) => {
   // Fetch from the backend, but copy the user's authorization cookie into
   // the authorization header.
   const r = await fetch(
-    'https://res.cloudinary.com/zeit-inc/image/fetch/https://raw.githubusercontent.com/vercel/vercel/main/packages/frameworks/logos/next.svg',
+    'https://res.cloudinary.com/zeit-inc/image/fetch/https://raw.githubusercontent.com/khulnasoft/handpickr/main/packages/frameworks/logos/next.svg',
     {
       headers: {
         authorization: getCookies(req).get('authorization') || '',
